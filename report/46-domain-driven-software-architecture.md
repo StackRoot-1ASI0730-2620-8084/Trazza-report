@@ -8,7 +8,7 @@
 
 ![Design-Level Event Storming 3](../assets/images/chapter4/domain-drive-architecture/design-level-event-storming-3.png)
 
-> **Enlace de Figma:** [Event Storming](https://www.figma.com/board/WxMU6oKF4Vo3Z5UQ5XZrkm/Event-Storming?node-id=0-1&t=aqD0ryVwMf3WdoTD-1)
+> *Fuente: Elaboración propia. Ver **Anexo F – Event Storming Completo** para el tablero interactivo completo en Figma.*
 
 A continuación se detallan las entidades principales de Trazza, organizadas por Bounded Context, distinguiendo cuáles actúan como Raíz de Agregado (Aggregate Root) y cuáles son entidades hijas o Value Objects asociados:
 
@@ -38,34 +38,34 @@ A continuación se detallan las entidades principales de Trazza, organizadas por
 
 A continuación se presenta el **Context Diagram** (Nivel 1), el cual ilustra de manera global la interacción de Trazza Platform con sus actores y sistemas externos.
 
-![C4 Context Diagram](../assets/images/chapter4/diagrams-v2/C4/SystemContext.png)
+![C4 Context Diagram](../assets/images/chapter4/diagrams-v2/SystemContext.png)
 
 **Diagram key**
-![C4 Context Diagram - Key](../assets/images/chapter4/diagrams-v2/C4/SystemContext-key%20(1).png)
+![C4 Context Diagram - Key](../assets/images/chapter4/diagrams-v2/SystemContext-key%20(1).png)
 
 
 ## 4.6.3. Software Architecture Container Diagrams
 
 Haciendo un acercamiento, el **Container diagram** (Nivel 2) detalla las aplicaciones principales que conforman el sistema y cómo se comunican entre sí.
 
-![C4 Container Diagram](../assets/images/chapter4/diagrams-v2/C4/Containers.png)
+![C4 Container Diagram](../assets/images/chapter4/diagrams-v2/Containers.png)
 
 **Diagram key**
-![C4 Container Diagram - Key](../assets/images/chapter4/diagrams-v2/C4/Containers-key.png)
+![C4 Container Diagram - Key](../assets/images/chapter4/diagrams-v2/Containers-key.png)
 ## 4.6.4. Software Architecture Components Diagrams
 
 A continuación se detalla la arquitectura interna de los dos contenedores principales de la plataforma Trazza, ilustrando cómo las responsabilidades se distribuyen a nivel de código fuente.
 
 ### 4.6.4.1. Frontend Web Application Components
 
-![C4 Component Diagram Frontend](../assets/images/chapter4/diagrams-v2/C4/Components-WebApp.png)
+![C4 Component Diagram Frontend](../assets/images/chapter4/diagrams-v2/Components-WebApp.png)
 
 **Diagram key**
-![C4 Component Diagram Frontend](../assets/images/chapter4/diagrams-v2/C4/Components-WebApp-key.png)
+![C4 Component Diagram Frontend](../assets/images/chapter4/diagrams-v2/Components-WebApp-key.png)
 ### 4.6.4.2. API Application Components (Matchmaking Core)
 
-![C4 Component Diagram API](../assets/images/chapter4/diagrams-v2/C4/Components-API.png)
+![C4 Component Diagram API](../assets/images/chapter4/diagrams-v2/Components-API.png)
 
 **Diagram key**
-![C4 Component Diagram API - Key](../assets/images/chapter4/diagrams-v2/C4/Components-API-key.png)
+![C4 Component Diagram API - Key](../assets/images/chapter4/diagrams-v2/Components-API-key.png)
 

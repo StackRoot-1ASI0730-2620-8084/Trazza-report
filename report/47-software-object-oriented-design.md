@@ -1,19 +1,22 @@
-# 4.7. Software Object-Oriented Design
+## 4.7. Software Object-Oriented Design
 
-A continuación se presenta el diagrama de clases correspondiente al Bounded Context Core de la plataforma: **Trazza**. Este diagrama ilustra cómo se estructura el emparejamiento entre la oferta (espacio en camiones) y la demanda (solicitudes de flete).
+En esta sección se presenta el diseño orientado a objetos de Trazza, considerando los principios de Domain-Driven Design (DDD) definidos para la arquitectura del sistema. El diseño de clases representa las principales entidades, objetos de valor, servicios y componentes de las capas Domain, Application, Infrastructure y Presentation.
 
-![Diagrama de Clases - Matchmaking](../assets/images/chapter4/software-object-oriented-design/class-diagram-matchmaking.png)
+La estructura del diseño se organiza de acuerdo con los bounded contexts identificados para la plataforma: IAM & Profiles, Matchmaking & Routing, Service Execution & Monitoring, Payment & Billing y Loyalty & Reputation. Esta organización permite mantener separadas las responsabilidades de cada contexto y representar las relaciones existentes entre los principales elementos del dominio.
 
-A continuación explicamos de manera sencilla cómo leer este diagrama y qué significa cada color:
+Asimismo, se presenta el Class Dictionary, donde se detallan los atributos, tipos de datos, métodos y responsabilidades de las principales clases del sistema.
 
-**El significado de los colores:**
-* **Celeste (Interfaces):** definen que acciones se pueden hacer, pero sin decir cómo. Esto ayuda a que el código esté más ordenado y sea fácil de actualizar.
-* **Amarillo (Aggregate Root):** Es la pieza principal y mas importante. En este caso, el `Match` (Emparejamiento) es el líder que controla y agrupa a los demas elementos de esta sección.
-* **Verde (Entidades):** Son objetos vitales que guardan información y tienen acciones propias, como la `RutaRetorno` del transportista y la `SolicitudCarga` del emprendedor
-* **Gris claro (Clases operativas):** Son las piezas que hacen el trabajo pesado, como recibir las peticiones de los usuarios (`MatchController`), hacer los cálculos del sistema (`MatchService`) o comunicarse con la base de datos (`MatchRepository`).
+### 4.7.1. Class Diagrams
+![C4 Class Diagrams](../assets/images/chapter4/diagrams-v2/Class/class-diagram-general.png)
 
-**El flujo del sistema (cómo trabajan en equipo):**
-* **El Controlador (`MatchController`):** Funciona como un recepcionista. Recibe la petición del usuario desde la web y se la entrega al Servicio. No hace cálculos ni guarda datos por sí mismo
-* **El Servicio (`MatchService`):** Es el "cerebro". Aquí ocurren los cálculos complejos, como evaluar matemáticamente si una carga cabe en el camión y si las rutas coinciden.
-* **El Repositorio (`MatchRepository`):** Es el bibliotecario. Es la única pieza del código que tiene permiso para ir a guardar o buscar la información definitiva en la base de datos
-* **El Dominio (`Match`, `RutaRetorno`, `SolicitudCarga`):** Son objetos inteligentes. En lugar de ser solo cajas vacías que guardan texto, contienen sus propias reglas. Por ejemplo, la clase `RutaRetorno` tiene su propia función matemática para descontar el peso (`RestarCapacidad()`) de forma segura.
+**IAM & Profiles** 
+![C4 Class Diagrams-IAM & Profiles ](../assets/images/chapter4/diagrams-v2/SystemContext.png)
+**Matchmaking & Routing** 
+![C4 Class Diagrams-Matchmaking & Routing ](../assets/images/chapter4/diagrams-v2/SystemContext.png)
+**Service Execution & Monitoring** 
+![C4 Class Diagrams-Service Execution & Monitoring](../assets/images/chapter4/diagrams-v2/SystemContext.png)
+**Payment & Billing**  
+![C4 Class Diagrams-Payment & Billing](../assets/images/chapter4/diagrams-v2/SystemContext.png)
+**Loyalty & Reputation**
+![C4 Class Diagrams-Loyalty & Reputation](../assets/images/chapter4/diagrams-v2/SystemContext.png)
+### 4.7.2. Class Dictionary
