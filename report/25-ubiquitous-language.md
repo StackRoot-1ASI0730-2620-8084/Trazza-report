@@ -8,11 +8,8 @@
 | **Empty Backhaul** (Flete Vacío) | Trayecto de retorno que realiza un Carrier sin mercadería a bordo, generando pérdida de rentabilidad (hasta 30%) y mayor huella de carbono. Es el problema central que resuelve Trazza. |
 | **Available Capacity** (Espacio Disponible) | Capacidad de carga ociosa que un Carrier publica en la plataforma, normalmente correspondiente a un viaje de retorno. |
 | **Match** (Emparejamiento) | Vinculación automática entre un Shipment publicado por un Merchant y la Available Capacity de un Carrier, generada por el Motor de emparejamiento con IA. |
-| **Matching Engine** (Motor de Emparejamiento) | Componente de IA que evalúa historial y cercanía geográfica para asignar automáticamente el Shipment ideal al Carrier adecuado, sin gestión manual. |
 | **Route Optimization** (Optimización de Ruteo) | Cálculo del trayecto más eficiente entre el punto de recojo y el de entrega, mediante algoritmos como Dijkstra, TSP, Backtracking y BFS. |
 | **Cost Matrix** (Matriz de Costos) | Estructura de datos generada por el motor de optimización que compara distancias, tiempos y costos entre distintas combinaciones de rutas posibles. |
 | **Tracking** (Monitoreo/Trazabilidad) | Seguimiento en tiempo real de la ubicación y estado de la mercancía durante el trayecto, mediante GPS e integraciones IoT futuras. |
 | **Contact Channel** (Canal de Contacto) | Funcionalidad de chat o llamada dentro de la app que permite a Carrier y Merchant coordinar y negociar el servicio (incluyendo el pago) fuera de la plataforma. |
 | **External Settlement** (Liquidación Externa) | Principio de diseño por el cual Trazza no procesa pagos: toda transacción monetaria entre Carrier y Merchant se gestiona por canales externos a la app. |
-| **Active User** (Usuario Activo / DAU) | Carrier o Merchant que interactúa con la plataforma (buscando rutas o cargas) dentro de un periodo determinado; métrica clave de éxito del producto. |
-| **Referral Effect** (Efecto Red/Boca a Boca) | Mecanismo de adquisición de usuarios basado en recomendaciones entre transportistas o emprendedores, reduciendo el Costo de Adquisición de Clientes (CAC). |
