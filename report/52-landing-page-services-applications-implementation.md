@@ -41,7 +41,6 @@ Los aspectos del Sprint 1 son la implementación del Landing Page, el diseño de
  
 El objetivo del Sprint 1 fue publicar la primera versión del Landing Page. Las User Stories se descompusieron en tareas de 4 a 8 horas.
  
-> **Pendiente:** screenshot del tablero de YouTrack filtrado por el Sprint 1. La imagen `chapter3/product-backlog-1.jpeg` muestra el Product Backlog completo sin Sprint asignado ("No programada"), por lo que no sirve como tablero del Sprint.
  
 **URL público del Board:** [https://trazza.youtrack.cloud/agiles/204-1/current](https://trazza.youtrack.cloud/agiles/204-1/current)
  
@@ -81,7 +80,8 @@ Al cierre del Sprint 1, el Landing Page quedó publicado en una URL pública. Pr
   <br><br>
   <img src="../assets/images/landingimplementada3.jpeg" alt="Landing Page v1 - Testimonials and footer" width="800">
 </div>
-> **Pendiente:** URL del video de navegación del Sprint 1 en Microsoft Stream.
+
+**Video de navegación del Sprint 1:** [Ver en Microsoft Stream](upc-pre-202620-1asi0730-8084-StackRoot-productnavigation-sprint-1.mp4)
  
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
  
