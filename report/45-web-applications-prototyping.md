@@ -1,6 +1,6 @@
 ### 4.5. Web Applications Prototyping
 
-Mediante el prototipo interactivo en Figma, simulamos el comportamiento operativo de LockSight antes de iniciar la etapa de desarrollo. Esto permite recrear flujos clave, como el inicio de sesión y la respuesta ante alertas en tiempo real, con el fin de evaluar la experiencia de usuario y comprobar que los administradores puedan navegar, revisar reportes y monitorear cámaras de forma fluida.
+Mediante el prototipo interactivo en Figma, simulamos el comportamiento operativo de Trazza antes de iniciar la etapa de desarrollo. Esto permite recrear flujos clave, como la publicación de rutas de retorno, el emparejamiento de cargas y el seguimiento de envíos, con el fin de evaluar la experiencia de usuario y comprobar que tanto transportistas como emprendedores puedan interactuar con la plataforma de forma fluida.
 
 **Versión Desktop**
 
