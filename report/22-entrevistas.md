@@ -59,7 +59,7 @@ A continuación, se presentan las preguntas dirigidas a dueños de negocios pyme
 17. ¿Qué tan seguido gestionas tu negocio a través de canales digitales (redes sociales, e-commerce, pasarelas de pago)?
 18. ¿Prefieres usar el celular o la computadora para gestionar tus pedidos y envíos?
 
-### 2.2.2. Registro de entrevistas 
+### 2.2.2. Registro de entrevistas
 
 **Segmento 1: Transportistas de Carga Terrestre**
 
@@ -72,27 +72,27 @@ A continuación, se presentan las preguntas dirigidas a dueños de negocios pyme
 **Resumenes de Entrevistas**<br>
 
 *Resumen de entrevista 1:* <br>
-Joaquín tiene 26 años, reside en La Molina y es **cogerente de Ríos Transporte**, un negocio familiar que administra aproximadamente tres camiones pequeños. Además de organizar las operaciones, conduce uno de los vehículos diariamente. Debido a su formación en marketing, busca clientes mediante **contactos directos con mayoristas, campañas en Facebook e Instagram y recomendaciones**. Utiliza principalmente el celular durante su jornada, especialmente **WhatsApp para comunicarse con clientes y Google Maps para consultar rutas y tráfico**; por las noches emplea la computadora para revisar Excel y asuntos contables.
+Joaquín tiene 26 años, reside en La Molina y es **cogerente de Ríos Transporte**, un negocio familiar cuyos integrantes son todos dueños y que cuenta con aproximadamente tres camiones pequeños. Además de administrar la operación, conduce uno de los vehículos a diario en rutas que parten de La Molina hacia el Centro de Lima. Su formación en marketing se refleja en un perfil **proactivo** para captar clientes: entrega su tarjeta de contacto a mayoristas de los mercados, realiza campañas en Facebook e Instagram y cuida a sus clientes actuales para generar recomendaciones boca a boca. El celular es su principal herramienta durante la jornada, en la que usa **WhatsApp para comunicarse con clientes y Google Maps y Waze para consultar rutas y tráfico**; la computadora la reserva para las noches, cuando revisa hojas de Excel y temas contables.
 
-Su principal problema es que **entre el 80 % y el 90 % de sus viajes de retorno se realizan sin carga**, debido a la dificultad para encontrar mercancías con destino a La Molina. Esto le ocasiona **pérdidas económicas por combustible, desgaste del vehículo y tiempo desperdiciado en el tráfico**. Actualmente busca oportunidades mediante grupos de WhatsApp y llamadas a conocidos, pero puede pasar hasta una hora sin encontrar resultados. Esta situación le genera frustración, pues su objetivo es **mejorar la rentabilidad del negocio y aprovechar los viajes de retorno**.
+Su principal problema es que **entre el 80 % y el 90 % de sus viajes de retorno se realizan sin carga**: desde La Molina sale mucha mercadería hacia el Centro de Lima, pero es muy difícil encontrar clientes con destino a esa zona. Lo describe como su **mayor dolor de cabeza**, pues genera **pérdidas por combustible, desgaste del camión y tiempo desperdiciado en el tráfico**, y como responsable de cuidar los ahorros de la empresa le preocupa de forma constante. Hoy se estaciona a esperar, abre grupos de WhatsApp de transportistas o llama a amigos y conocidos, y puede pasar hasta una hora sin resultados antes de rendirse y regresar vacío. Esta búsqueda a ciegas es lo que más le frustra, y su objetivo es **mejorar la rentabilidad del negocio y aprovechar los viajes de retorno**.
 
-Joaquín utilizaría una aplicación que sugiera automáticamente cargas compatibles con su ruta y estaría dispuesto a esperar **entre 15 y 30 minutos** si existe la posibilidad de cubrir los costos del viaje. Prefiere **negociar directamente con los clientes y establecer sus propias tarifas**, sin que la plataforma imponga precios. Considera fundamentales las **calificaciones de los clientes y el monitoreo en tiempo real**, pues le permiten evaluar la confiabilidad y ofrecer un servicio más profesional. Además, afirma que utilizaría y recomendaría la aplicación a otros transportistas que enfrentan el mismo problema.
+Joaquín utilizaría una aplicación que sugiera automáticamente cargas compatibles con su ruta y estaría dispuesto a esperar **entre 15 y 30 minutos** si eso asegura cubrir el costo del regreso. Considera **vital negociar directamente con los clientes y fijar sus propias tarifas**: prefiere que la aplicación le entregue el contacto en lugar de imponerle un precio que no le convenga. Para aceptar una carga valora las **calificaciones de los clientes**, que le dan tranquilidad de que es alguien serio y pagará a tiempo, y el **monitoreo en tiempo real**, que le permitiría ofrecer a sus clientes el seguimiento en vivo de su carga y proyectar una imagen más profesional. Afirma que mantendría la aplicación abierta todo el día junto a Waze y que la recomendaría a otros transportistas del rubro que sufren el mismo problema, ya que ahorra gasolina y permite ganar más.
 
 
 *Resumen de entrevista 2:* <br>
-Juan David tiene 21 años y trabaja en una empresa familiar de transporte ubicada en Ate, donde se desempeña como **encargado de logística de una flota de aproximadamente seis camiones**. Sus funciones incluyen coordinar rutas, viajes y disponibilidad de vehículos. Utiliza diariamente **WhatsApp para comunicarse con clientes y conductores, y Google Maps para revisar rutas y tiempos de viaje**. Prefiere el celular para las tareas rápidas y la computadora para organizar información y controlar las operaciones. Sus principales canales para conseguir clientes son las **recomendaciones, los contactos del sector y los grupos de WhatsApp**.
+Juan David tiene 21 años y trabaja en una empresa familiar de transporte ubicada en Ate, donde se desempeña como **encargado de logística de una flota de aproximadamente seis camiones** de carga que trasladan distintos tipos de mercancía. Sus funciones incluyen coordinar rutas, viajes y disponibilidad de vehículos. Utiliza todos los días **WhatsApp para comunicarse con clientes y conductores, Google Maps para revisar rutas y tiempos de viaje** y redes sociales. Por su rol orientado al control de la operación, prefiere la computadora para organizar la información y llevar un mejor seguimiento de los viajes, y el celular para tareas rápidas como revisar mensajes, consultar rutas o contactar clientes. Sus contactos provienen de **recomendaciones, relaciones construidas con el tiempo y grupos de WhatsApp del rubro del transporte**.
 
-Su principal dificultad es que **dos o tres veces por semana algunos camiones regresan vacíos**, lo que genera gastos de combustible, peajes y mantenimiento sin ingresos adicionales. Actualmente busca cargas mediante contactos conocidos, llamadas a clientes y grupos de transporte, pero este proceso implica **pérdida de tiempo e incertidumbre sobre la disponibilidad real de las mercancías**. Por ello, busca **optimizar la planificación logística, reducir los costos operativos y aprovechar mejor los viajes de retorno**.
+Su principal dificultad es que **dos o tres veces por semana algunos camiones regresan vacíos**, sobre todo cuando no consiguen una carga que coincida con la ruta de retorno. Esto genera **gastos de combustible, peajes y mantenimiento sin ingresos adicionales**. Actualmente busca cargas preguntando a contactos conocidos, a otros transportistas, a clientes y en grupos de WhatsApp, pero lo que más le frustra es **tener que revisar varios contactos y grupos sin saber si la carga realmente está disponible**, lo que le hace perder tiempo sin conseguir resultados. Por ello busca **optimizar la planificación logística, reducir los costos operativos y aprovechar mejor los viajes de retorno**.
 
-Juan David considera útil una aplicación que conecte transportistas con clientes y estaría dispuesto a esperar algunos minutos si existen buenas posibilidades de encontrar una carga compatible. Prefiere **negociar directamente las condiciones y el precio con el cliente**, mientras que las **calificaciones y el seguimiento en tiempo real** le brindarían mayor confianza y control. Utilizaría una herramienta sencilla que permita indicar la ruta, el tipo de vehículo y la disponibilidad, y la recomendaría a otros transportistas siempre que las cargas publicadas sean reales y el sistema funcione correctamente.
+Juan David confiaría en un sistema que sugiera cargas automáticamente siempre que la información sea confiable y la carga esté disponible, porque le ahorraría tiempo de búsqueda manual. Estaría dispuesto a esperar unos minutos si existe una buena posibilidad de encontrar una carga compatible, pues considera mejor esperar que regresar completamente vacío. Es **muy importante para él negociar directamente las condiciones y el precio con el cliente**; preferiría que la aplicación sirva principalmente para conectar al transportista con quien necesita enviar. Las **calificaciones de los clientes** le permitirían saber si son confiables y el **seguimiento en tiempo real** le daría mayor control y seguridad de que el servicio se realiza correctamente. Utilizaría una herramienta sencilla que permita indicar la ruta, el tipo de vehículo y la disponibilidad, y la recomendaría a otros transportistas siempre que las cargas publicadas sean reales y el sistema funcione bien.
 
 
 *Resumen de entrevista 3:* <br>
-Mariana Isabel Escalante Sánchez tiene 24 años, reside en San Juan de Lurigancho y es **transportista independiente**, propietaria de un furgón liviano de entre 3.5 y 4 toneladas. Lleva pocos años en el sector y todavía está construyendo su cartera de clientes. Para conseguir oportunidades utiliza **grupos de WhatsApp, grupos de Facebook, recomendaciones familiares y contactos de otros conductores**. Tiene una alta familiaridad con la tecnología y prefiere gestionar todo desde el celular, utilizando **Waze y Google Maps para navegar, WhatsApp para coordinar servicios y billeteras digitales para los pagos**.
+Ariana Isabel Escalante Sánchez tiene 24 años, reside en San Juan de Lurigancho y es **transportista independiente**, propietaria de un furgón liviano de entre 3.5 y 4 toneladas, ideal para reparto urbano y viajes interurbanos cortos, que adquirió para iniciar su propio negocio. Lleva pocos años en el sector y todavía está construyendo su cartera de clientes, por lo que a veces debe arriesgarse a regresar vacía para no quedarse varada pagando cochera en otra zona. Para conseguir oportunidades recurre a **grupos de WhatsApp de transportistas, grupos de Facebook de fletes, redes sociales, recomendaciones de familiares del rubro, contactos guardados de cada servicio y consultas a choferes con más experiencia en la zona de descarga**. Tiene alta familiaridad con la tecnología y gestiona todo desde el celular: usa **Waze y Google Maps activos para navegar, WhatsApp para coordinar servicios y billeteras digitales para cotizaciones y cobros**, incluso mientras está en ruta.
 
-Su principal problema es que **entre el 45 % y el 50 % de las veces regresa sin carga**, debido a la falta de clientes y oportunidades compatibles con su ruta. Esta situación le genera **preocupación económica por las cuotas del vehículo, el mantenimiento, los seguros, el combustible y los peajes**. También le frustran **la desconfianza que enfrenta por ser joven, los intermediarios que cobran comisiones injustas y la incertidumbre sobre el cumplimiento de los pagos**. Su principal meta es **consolidar su negocio, conseguir clientes confiables y aumentar la rentabilidad de cada recorrido**.
+Su principal problema es que **entre el 45 % y el 50 % de las veces regresa sin carga**, debido a la falta de clientes y oportunidades compatibles con su ruta. Para ella es muy frustrante y preocupante porque aún paga **las cuotas del vehículo, el mantenimiento y los seguros**, y si regresa vacía **el combustible y el peaje se llevan la ganancia del viaje de ida**. También le frustran **la desconfianza que enfrenta por ser joven, los intermediarios que cobran una comisión injusta solo por pasar un contacto y la incertidumbre sobre si el cliente cumplirá con el pago**. Su principal meta es **consolidar su negocio, conseguir clientes confiables y aumentar la rentabilidad de cada recorrido**.
 
-Mariana utilizaría una aplicación que sugiera cargas automáticamente y estaría dispuesta a esperar **entre 30 y 45 minutos** si puede conseguir un retorno remunerado. Aunque desea negociar directamente las condiciones del servicio, está abierta a que la plataforma gestione los pagos si ofrece mayores garantías. Considera importantes las **calificaciones de los clientes, el monitoreo en tiempo real y la seguridad de los pagos**, ya que estas funcionalidades reducirían los riesgos y facilitarían la comunicación. Además, ve la digitalización como una oportunidad para **reducir la dependencia de intermediarios y modernizar el sector del transporte**, por lo que también recomendaría la aplicación a otros transportistas.
+Aariana confiaría en un sistema que sugiera cargas automáticamente, siempre que la información sea transparente, porque le ahorraría el tiempo de llamar o buscar a ciegas. Estaría dispuesta a esperar **entre 30 y 45 minutos** revisando el celular en el punto de entrega si eso significa regresar con carga pagada. Considera importante negociar con el cliente detalles como los tiempos de espera, pero está abierta a que la plataforma gestione los pagos si garantiza que el cliente cumpla. Valora las **calificaciones de los clientes**, que le permiten filtrar clientes problemáticos o morosos antes de aceptar, y el **monitoreo en tiempo real**, que aporta seriedad al viaje, le da respaldo ante cualquier reclamo y evita que el cliente deba llamarla mientras conduce. Ve la digitalización como una oportunidad para **reducir la dependencia de intermediarios y modernizar el sector del transporte**, tema que comenta con compañeros de su edad, y recomendaría la aplicación a otros transportistas.
 
 
 **Segmento 2: Pequeños y Medianos Emprendedores**
@@ -108,11 +108,11 @@ Mariana utilizaría una aplicación que sugiera cargas automáticamente y estar�
 **Resumenes de Entrevistas**<br>
 
 *Resumen de entrevista 1:* <br>
-Janet Pávora tiene 48 años, reside en Ate y se dedica al rubro de los cosméticos. Su emprendimiento surgió por **necesidad económica**, cuando dejó de trabajar en una oficina y necesitaba generar ingresos mientras tenía un hijo pequeño. Actualmente realiza aproximadamente **20 pedidos de mercadería al mes**, que pueden incluir cremas, champús y otros productos. Gestiona su negocio principalmente desde el celular y utiliza **Instagram, Facebook y WhatsApp** para promocionar sus productos, compartir catálogos y mantener contacto con sus clientes. Prefiere los dispositivos Samsung y busca información para mejorar su negocio mediante Google, blogs de emprendedores y herramientas de inteligencia artificial.
+Jannet Párraga tiene 48 años, reside en Ate y se dedica al rubro de los cosméticos. Su emprendimiento surgió por **necesidad económica**, cuando dejó de trabajar en una oficina y necesitaba generar ingresos mientras tenía un hijo pequeño. Actualmente realiza aproximadamente **20 pedidos de mercadería al mes**, que pueden incluir cremas, champús y otros productos. Gestiona su negocio principalmente desde el celular y utiliza **Instagram, Facebook y WhatsApp** para promocionar sus productos, compartir catálogos y mantener contacto con sus clientes. Prefiere los dispositivos Samsung y busca información para mejorar su negocio mediante Google, blogs de emprendedores y herramientas de inteligencia artificial.
 
-Janet se describe como una persona **proactiva, esforzada, empática y respetuosa**. Considera que sus principales fortalezas son escuchar las necesidades de sus clientes y ofrecer productos de manera transparente. Su principal dificultad es **el aumento del costo del transporte**, influenciado por las variaciones del precio del combustible, lo que encarece la distribución de su mercadería. Actualmente contrata una empresa de transporte tercerizada con la que mantiene una relación de confianza desde hace tiempo. Aunque está satisfecha con el servicio, considera que la recomendación de otras personas sería importante para evaluar nuevas alternativas, pues **la seguridad de sus productos y la confiabilidad del transportista son sus principales preocupaciones**.
+Jannet se describe como una persona **proactiva, esforzada, empática y respetuosa**. Considera que sus principales fortalezas son escuchar las necesidades de sus clientes y ofrecer productos de manera transparente. Su principal dificultad es **el aumento del costo del transporte**, influenciado por las variaciones del precio del combustible, lo que encarece la distribución de su mercadería. Actualmente contrata una empresa de transporte tercerizada con la que mantiene una relación de confianza desde hace tiempo. Aunque está satisfecha con el servicio, considera que la recomendación de otras personas sería importante para evaluar nuevas alternativas, pues **la seguridad de sus productos y la confiabilidad del transportista son sus principales preocupaciones**.
 
-Janet considera **muy importante el seguimiento de la mercadería en tiempo real**, incluyendo la ubicación, las paradas y el avance de la entrega. También prefiere realizar los pagos mediante la aplicación si esta ofrece garantías y protección para sus envíos, en lugar de entregar dinero directamente a una persona desconocida. Para confiar en un transportista, valora las **calificaciones, las estrellas y las recomendaciones de otros clientes o empresas**. Estaría dispuesta a utilizar una plataforma que le permita publicar sus necesidades de envío y recibir ofertas de transporte, y la recomendaría si funciona adecuadamente. Su principal meta es **mantener una distribución segura y confiable, controlar sus envíos y reducir los costos de transporte sin comprometer la calidad del servicio**.
+Jannet considera **muy importante el seguimiento de la mercadería en tiempo real**, incluyendo la ubicación, las paradas y el avance de la entrega. También prefiere realizar los pagos mediante la aplicación si esta ofrece garantías y protección para sus envíos, en lugar de entregar dinero directamente a una persona desconocida. Para confiar en un transportista, valora las **calificaciones, las estrellas y las recomendaciones de otros clientes o empresas**. Estaría dispuesta a utilizar una plataforma que le permita publicar sus necesidades de envío y recibir ofertas de transporte, y la recomendaría si funciona adecuadamente. Su principal meta es **mantener una distribución segura y confiable, controlar sus envíos y reducir los costos de transporte sin comprometer la calidad del servicio**.
 
 
 *Resumen de entrevista 2:* <br>
@@ -124,7 +124,7 @@ Para considerar una nueva alternativa de transporte, Almendra prioriza **la segu
 
 
 *Resumen de entrevista 3:* <br>
-Camila Flores tiene 23 años y es propietaria de **Camila Baker**, un negocio de pastelería ubicado en Santiago de Surco. Trabaja principalmente durante los fines de semana y realiza aproximadamente **80 a 100 envíos al mes**, principalmente dentro de Lima; los envíos a provincia son excepcionales. Gestiona su negocio exclusivamente mediante el celular y utiliza **WhatsApp e Instagram** como principales canales digitales. Para sus entregas utiliza actualmente aplicaciones de transporte y courier, principalmente **Uber e InDrive**, mediante las cuales puede encontrar un transportista disponible en aproximadamente cinco minutos.
+Camila Flores tiene 23 años y es propietaria de **Camila Bakery**, un negocio de pastelería ubicado en Santiago de Surco. Trabaja principalmente durante los fines de semana y realiza aproximadamente **80 a 100 envíos al mes**, principalmente dentro de Lima; los envíos a provincia son excepcionales. Gestiona su negocio exclusivamente mediante el celular y utiliza **WhatsApp e Instagram** como principales canales digitales. Para sus entregas utiliza actualmente aplicaciones de transporte y courier, principalmente **Uber e InDrive**, mediante las cuales puede encontrar un transportista disponible en aproximadamente cinco minutos.
 
 Su principal problema está relacionado con **el costo del transporte cuando las distancias son largas**, lo que puede encarecer sus entregas. Por ello, considera bastante útil encontrar transportistas con espacio disponible a un menor precio y estaría dispuesta a **esperar más tiempo si esto permite reducir el costo del servicio**. También considera **muy importante el seguimiento de la mercancía en tiempo real**, porque le genera confianza durante el proceso de entrega. En cuanto a la selección del transportista, muestra una ligera preferencia por modelos donde pueda **escoger entre diferentes opciones**, en lugar de depender únicamente de una asignación automática.
 
@@ -134,17 +134,17 @@ Camila estaría dispuesta a utilizar una aplicación que la conecte automáticam
 ### 2.2.3. Análisis de entrevistas
 
 Este documento analiza las entrevistas realizadas a los dos segmentos objetivo del proyecto, con el fin de identificar las características objetivas y subjetivas más comunes que servirán de base para construir los arquetipos.
- 
+
 - **Segmento 1:** Transportistas de carga terrestre (n = 3).
 - **Segmento 2:** Pequeños y medianos emprendedores (n = 3).
 ## Segmento 1: Transportistas de carga terrestre
- 
+
 Entrevistados:
 - **E1** Joaquín (26 años, La Molina; cogerente de Ríos Transporte, negocio familiar con ~3 camiones pequeños).
 - **E2** Juan David (21 años, empresa familiar en Ate; encargado de logística de ~6 camiones).
 - **E3** Mariana Escalante (24 años, San Juan de Lurigancho; transportista independiente con un furgón liviano de 3,5–4 t).
 ### Características objetivas
- 
+
 | Característica | Resultado | % | Fuente | Evidencia en los resúmenes |
 |---|---|---|---|---|
 | Adultos jóvenes (21–26 años; edad promedio ≈ 23,7) | 3 de 3 | 100 % | E1, E2, E3 | 26, 21 y 24 años |
@@ -152,16 +152,16 @@ Entrevistados:
 | Sufren retornos sin carga | 3 de 3 | 100 % | E1, E2, E3 | E1: 80–90 % de retornos vacíos; E2: 2–3 veces por semana; E3: 45–50 % de las veces |
 | Asumen costos sin ingreso en el retorno (combustible, peajes, mantenimiento) | 3 de 3 | 100 % | E1, E2, E3 | E1: combustible y desgaste; E2: combustible, peajes y mantenimiento; E3: cuotas, seguros, combustible y peajes |
 | Usan WhatsApp para coordinar con clientes o conductores | 3 de 3 | 100 % | E1, E2, E3 | Mencionado en los tres resúmenes |
-| Usan Google Maps o Waze para rutas y tráfico | 3 de 3 | 100 % | E1, E2, E3 | E1 y E2: Google Maps; E3: Waze y Google Maps |
+| Usan Google Maps o Waze para rutas y tráfico | 3 de 3 | 100 % | E1, E2, E3 | E1: Google Maps y Waze; E2: Google Maps; E3: Waze y Google Maps |
 | Buscan carga de forma informal (grupos de WhatsApp/Facebook, llamadas, contactos) | 3 de 3 | 100 % | E1, E2, E3 | E1: grupos y llamadas; E2: contactos y grupos; E3: grupos, recomendaciones y otros conductores |
 | Usan el celular como herramienta principal en su jornada | 3 de 3 | 100 % | E1, E2, E3 | E3 todo desde el celular; E1 y E2 celular para tareas rápidas |
 | Negocio familiar | 2 de 3 | 66,7 % | E1, E2 | Ríos Transporte y empresa familiar en Ate |
 | Complementan con computadora (Excel, control de operaciones) | 2 de 3 | 66,7 % | E1, E2 | E1: Excel y contabilidad de noche; E2: organizar información y operaciones |
 | Usan redes sociales para captar clientes u oportunidades | 2 de 3 | 66,7 % | E1, E3 | E1: Facebook e Instagram; E3: grupos de Facebook |
 | Conducen o gestionan directamente sus vehículos | 2 de 3 | 66,7 % | E1, E3 | E1 conduce uno de los camiones; E3 es dueña-conductora |
- 
+
 ### Características subjetivas
- 
+
 | Característica | Resultado | % | Fuente | Evidencia en los resúmenes |
 |---|---|---|---|---|
 | Motivación: reducir pérdidas y aumentar la rentabilidad aprovechando el retorno | 3 de 3 | 100 % | E1, E2, E3 | E1: mejorar rentabilidad; E2: reducir costos operativos; E3: aumentar rentabilidad por recorrido |
@@ -172,7 +172,7 @@ Entrevistados:
 | Monitoreo en tiempo real como factor de confianza o seguridad | 3 de 3 | 100 % | E1, E2, E3 | Mencionado en los tres resúmenes |
 | Preferencia por negociar condiciones y precio directamente con el cliente | 3 de 3 | 100 % | E1, E2, E3 | E1 y E2: negociar y fijar tarifas; E3 desea negociar directo, aunque acepta pagos por la plataforma si hay garantías |
 | Utilizarían la app y la recomendarían a otros transportistas | 3 de 3 | 100 % | E1, E2, E3 | E2 lo condiciona a que las cargas publicadas sean reales |
- 
+
 ### Rasgos individuales (33,3 %)
 - **Seguridad en los pagos y pagos gestionados por la plataforma (E3):** abierta a que la app gestione los pagos por las garantías que ofrece.
 - **Desconfianza por ser joven y rechazo a comisiones injustas de intermediarios (E3):** quiere reducir la dependencia de intermediarios y modernizar el sector.
@@ -183,15 +183,15 @@ Entrevistados:
 Adulto joven de Lima Este (21–26 años), con enfoque móvil primero y WhatsApp como canal principal, que sufre retornos sin carga como dolor central (entre 45 % y 90 % de los viajes, o 2–3 veces por semana). Busca cargas de manera informal, con frustración y pérdida de tiempo. Quiere **rentabilizar el viaje de retorno** y está dispuesto a esperar entre unos minutos y 45 minutos por una carga compatible. Prefiere negociar directamente su tarifa y adoptaría la herramienta si incluye **calificaciones de clientes y monitoreo en tiempo real**.
  
 ---
- 
+
 ## Segmento 2: Pequeños y medianos emprendedores
- 
+
 Entrevistados:
-- **E1** Janet Pávora (48 años, Ate; cosméticos; ~20 pedidos al mes).
+- **E1** Jannet Párraga (48 años, Ate; cosméticos; ~20 pedidos al mes).
 - **E2** Almendra Lavi (21 años, La Victoria; cogerente de Okawa, venta y alquiler de equipos tecnológicos; 100–500 envíos por semana).
-- **E3** Camila Flores (23 años, Santiago de Surco; pastelería Camila Baker; 80–100 envíos al mes).
+- **E3** Camila Flores (23 años, Santiago de Surco; pastelería Camila Bakery; 80–100 envíos al mes).
 ### Características objetivas
- 
+
 | Característica | Resultado | % | Fuente | Evidencia en los resúmenes |
 |---|---|---|---|---|
 | Negocios ubicados en Lima | 3 de 3 | 100 % | E1, E2, E3 | Ate, La Victoria, Surco |
@@ -202,9 +202,9 @@ Entrevistados:
 | Edad ≤ 23 años (rango 21–48) | 2 de 3 | 66,7 % | E2, E3 | 21 y 23 años |
 | Ya trabajan con un transportista o aliado fijo | 2 de 3 | 66,7 % | E1, E2 | E1: relación de confianza de largo plazo; E2: aliado comercial |
 | Envían volúmenes recurrentes (20 al mes hasta 500 por semana) | 3 de 3 | 100 % | E1, E2, E3 | Cifras declaradas en cada resumen |
- 
+
 ### Características subjetivas
- 
+
 | Característica | Resultado | % | Fuente | Evidencia en los resúmenes |
 |---|---|---|---|---|
 | El costo del transporte es su principal dificultad | 3 de 3 | 100 % | E1, E2, E3 | E1: alza por combustible; E2: costos que reducen el margen; E3: costo en distancias largas |
@@ -215,7 +215,7 @@ Entrevistados:
 | Valoran la verificación o reputación del transportista (calificaciones, opiniones, verificación) | 3 de 3 | 100 % | E1, E2, E3 | E1 y E3: calificaciones y opiniones; E2: transportistas verificados |
 | Usan calificaciones, estrellas u opiniones para confiar en un transportista | 2 de 3 | 66,7 % | E1, E3 | E1: estrellas y recomendaciones; E3: puntuaciones de otros usuarios |
 | Prefieren transportistas fidelizados o recomendados | 2 de 3 | 66,7 % | E1, E2 | Confianza previa con su proveedor actual |
- 
+
 ### Rasgos individuales (33,3 %)
 - **Preferir pagar mediante la app con garantías (E1)** frente a **pagar directamente al transportista por considerarlo más humano (E3)**; posturas opuestas.
 - **Plataforma privada, con transportistas verificados y centro logístico cercano (E2).**
@@ -228,9 +228,9 @@ Emprendedor de Lima, con negocio digital y envíos recurrentes, cuya prioridad e
 - **A: control y confianza (E1, E2):** quiere elegir, fidelizar, verificar y monitorear a su transportista; prioriza seguridad sobre precio.
 - **B: costo y flexibilidad (E3):** prioriza tarifa baja, acepta esperar más y valora elegir entre opciones; con alto uso digital.
 ---
- 
+
 ## Base para los arquetipos
- 
+
 | | Transportista | Emprendedor |
 |---|---|---|
 | **Dolor** | Retorno sin carga que genera pérdidas (100 %) | Costo de transporte (100 %) y riesgo para la mercadería (100 %) |
@@ -238,8 +238,8 @@ Emprendedor de Lima, con negocio digital y envíos recurrentes, cuya prioridad e
 | **Condición de adopción** | Calificaciones (100 %) y monitoreo en tiempo real (100 %) | Seguimiento en tiempo real (100 %) y transportista verificado o bien calificado (100 %) |
 | **Comportamiento** | Móvil primero, WhatsApp y mapas, búsqueda informal de carga (100 %); negocia precio directamente (100 %) | Canales digitales (100 %), transportista tercerizado (100 %); fidelizado, salvo sub-perfil B (66,7 %) |
 | **Disposición** | Esperaría de 15 a 45 min por una carga (100 %) | Publicaría envíos y recibiría ofertas (100 %) |
- 
+
 **Conexión clave:** ambos segmentos coinciden en pedir **confianza y seguridad** (calificaciones, seguimiento en tiempo real, verificación). Además, el problema es complementario: el transportista tiene capacidad ociosa en el retorno y el emprendedor busca transporte más barato y seguro. Esto apunta a una propuesta de valor basada en **reputación y trazabilidad**, que conecte la capacidad vacía con la demanda de envíos.
- 
+
 **Limitación metodológica:** con n = 3 por segmento, cada entrevistado representa 33,3 %. Los porcentajes son indicativos y sirven para construir arquetipos, no para generalizar estadísticamente.
  
