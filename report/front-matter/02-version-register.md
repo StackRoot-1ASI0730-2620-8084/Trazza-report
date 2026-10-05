@@ -13,3 +13,4 @@
 | 2.5 | 04/10/2026 | Fabricio Lozano | Incorporación de avances en el Capítulo 5 y avance en el desarrollo del código. |
 | 2.6 | 04/10/2026 | Gabriel Peñaranda | Subida y actualización de cambios y artefactos desde UXPressia. |
 | 2.7 | 04/10/2026 | Ingrid Medina | Mejora de los diagramas C4 mediante su migración a código en Structurizr. |
+| 2.8 | 05/10/2026 | Gabriel Peñaranda | Reestructuración de artefactos C4, correcciones mayores de redacción en los capítulos 1, 2, 4 y 5, y consolidación del Student Outcome para el hito TB1. |
