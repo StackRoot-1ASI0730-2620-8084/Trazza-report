@@ -59,7 +59,7 @@ A continuación, se presentan las preguntas dirigidas a dueños de negocios pyme
 17. ¿Qué tan seguido gestionas tu negocio a través de canales digitales (redes sociales, e-commerce, pasarelas de pago)?
 18. ¿Prefieres usar el celular o la computadora para gestionar tus pedidos y envíos?
 
-### 2.2.2. Registro de entrevistas
+### 2.2.2. Registro de entrevistas 
 
 **Segmento 1: Transportistas de Carga Terrestre**
 
@@ -137,60 +137,109 @@ Este documento analiza las entrevistas realizadas a los dos segmentos objetivo d
  
 - **Segmento 1:** Transportistas de carga terrestre (n = 3).
 - **Segmento 2:** Pequeños y medianos emprendedores (n = 3).
- 
 ## Segmento 1: Transportistas de carga terrestre
  
-Entrevistados: **E1** Joaquín (26, Ate, empresa familiar, 3 camiones), **E2** Juan David (21, Ate, flota familiar, 6 camiones), **E3** Ariana (24, SJL, independiente, furgón).
+Entrevistados:
+- **E1** Joaquín (26 años, La Molina; cogerente de Ríos Transporte, negocio familiar con ~3 camiones pequeños).
+- **E2** Juan David (21 años, empresa familiar en Ate; encargado de logística de ~6 camiones).
+- **E3** Mariana Escalante (24 años, San Juan de Lurigancho; transportista independiente con un furgón liviano de 3,5–4 t).
+### Características objetivas
  
-| Característica | Tipo | Resultado | % | Fuente |
+| Característica | Resultado | % | Fuente | Evidencia en los resúmenes |
 |---|---|---|---|---|
-| Adultos jóvenes (21–26 años) de Lima Este | Objetiva | 3 de 3 | 100 % | E1, E2, E3 |
-| Sufren retornos vacíos (2–3 veces por semana o ~50 % de viajes) | Objetiva | 3 de 3 | 100 % | E1, E2, E3 |
-| Usan celular y WhatsApp | Objetiva | 3 de 3 | 100 % | E1, E2, E3 |
-| Negocio familiar | Objetiva | 2 de 3 | 66,7 % | E1, E2 |
-| Usan redes sociales | Objetiva | 2 de 3 | 66,7 % | E1, E3 |
-| Búsqueda actual de carga informal | Objetiva | 2 de 3 | 66,7 % | E2, E3 |
-| Motivación: reducir pérdidas | Subjetiva | 3 de 3 | 100 % | E1, E2, E3 |
-| Dispuestos a esperar por carga (30 min; unos minutos; 30–45 min) | Subjetiva | 3 de 3 | 100 % | E1, E2, E3 |
-| Calificación de usuarios indispensable o muy valorada | Subjetiva | 3 de 3 | 100 % | E1, E2, E3 |
-| Negociar el precio directamente | Subjetiva | 2 de 3 | 66,7 % | E1, E2 |
-| Monitoreo en tiempo real por seguridad | Subjetiva | 2 de 3 | 66,7 % | E2, E3 |
-| Frustración con el método actual | Subjetiva | 2 de 3 | 66,7 % | E2, E3 |
-| Disposición explícita a usar la app y recomendarla | Subjetiva | 2 de 3 | 66,7 % | E2, E3 |
+| Adultos jóvenes (21–26 años; edad promedio ≈ 23,7) | 3 de 3 | 100 % | E1, E2, E3 | 26, 21 y 24 años |
+| Residen u operan en Lima Este (La Molina, Ate, SJL) | 3 de 3 | 100 % | E1, E2, E3 | La Molina, Ate, San Juan de Lurigancho |
+| Sufren retornos sin carga | 3 de 3 | 100 % | E1, E2, E3 | E1: 80–90 % de retornos vacíos; E2: 2–3 veces por semana; E3: 45–50 % de las veces |
+| Asumen costos sin ingreso en el retorno (combustible, peajes, mantenimiento) | 3 de 3 | 100 % | E1, E2, E3 | E1: combustible y desgaste; E2: combustible, peajes y mantenimiento; E3: cuotas, seguros, combustible y peajes |
+| Usan WhatsApp para coordinar con clientes o conductores | 3 de 3 | 100 % | E1, E2, E3 | Mencionado en los tres resúmenes |
+| Usan Google Maps o Waze para rutas y tráfico | 3 de 3 | 100 % | E1, E2, E3 | E1 y E2: Google Maps; E3: Waze y Google Maps |
+| Buscan carga de forma informal (grupos de WhatsApp/Facebook, llamadas, contactos) | 3 de 3 | 100 % | E1, E2, E3 | E1: grupos y llamadas; E2: contactos y grupos; E3: grupos, recomendaciones y otros conductores |
+| Usan el celular como herramienta principal en su jornada | 3 de 3 | 100 % | E1, E2, E3 | E3 todo desde el celular; E1 y E2 celular para tareas rápidas |
+| Negocio familiar | 2 de 3 | 66,7 % | E1, E2 | Ríos Transporte y empresa familiar en Ate |
+| Complementan con computadora (Excel, control de operaciones) | 2 de 3 | 66,7 % | E1, E2 | E1: Excel y contabilidad de noche; E2: organizar información y operaciones |
+| Usan redes sociales para captar clientes u oportunidades | 2 de 3 | 66,7 % | E1, E3 | E1: Facebook e Instagram; E3: grupos de Facebook |
+| Conducen o gestionan directamente sus vehículos | 2 de 3 | 66,7 % | E1, E3 | E1 conduce uno de los camiones; E3 es dueña-conductora |
  
-**Rasgos individuales (33,3 %):** comisiones altas y desconfianza (E3); captar clientes cerca de La Molina (E1); usa Google Maps (E2).
+### Características subjetivas
  
-**Perfil predominante:** adulto joven de Lima Este, móvil primero, con retornos vacíos como dolor principal. Está dispuesto a esperar hasta 30–45 min y adopta la herramienta si incluye **calificación de usuarios y monitoreo**.
+| Característica | Resultado | % | Fuente | Evidencia en los resúmenes |
+|---|---|---|---|---|
+| Motivación: reducir pérdidas y aumentar la rentabilidad aprovechando el retorno | 3 de 3 | 100 % | E1, E2, E3 | E1: mejorar rentabilidad; E2: reducir costos operativos; E3: aumentar rentabilidad por recorrido |
+| Frustración o incertidumbre con el método actual de búsqueda | 3 de 3 | 100 % | E1, E2, E3 | E1: frustración y hasta 1 h sin resultados; E2: pérdida de tiempo e incertidumbre; E3: desconfianza e intermediarios |
+| Interés en una app que conecte o sugiera cargas compatibles | 3 de 3 | 100 % | E1, E2, E3 | E1 y E3: sugerencia automática; E2: herramienta simple con ruta, vehículo y disponibilidad |
+| Dispuestos a esperar por una carga compatible (15–30 min; unos minutos; 30–45 min) | 3 de 3 | 100 % | E1, E2, E3 | Tiempos declarados por cada entrevistado |
+| Calificaciones de clientes como factor de confianza | 3 de 3 | 100 % | E1, E2, E3 | E1: fundamentales; E2: mayor confianza; E3: importantes |
+| Monitoreo en tiempo real como factor de confianza o seguridad | 3 de 3 | 100 % | E1, E2, E3 | Mencionado en los tres resúmenes |
+| Preferencia por negociar condiciones y precio directamente con el cliente | 3 de 3 | 100 % | E1, E2, E3 | E1 y E2: negociar y fijar tarifas; E3 desea negociar directo, aunque acepta pagos por la plataforma si hay garantías |
+| Utilizarían la app y la recomendarían a otros transportistas | 3 de 3 | 100 % | E1, E2, E3 | E2 lo condiciona a que las cargas publicadas sean reales |
+ 
+### Rasgos individuales (33,3 %)
+- **Seguridad en los pagos y pagos gestionados por la plataforma (E3):** abierta a que la app gestione los pagos por las garantías que ofrece.
+- **Desconfianza por ser joven y rechazo a comisiones injustas de intermediarios (E3):** quiere reducir la dependencia de intermediarios y modernizar el sector.
+- **Cargas reales y sistema confiable como condición para recomendar (E2).**
+- **Dificultad específica para hallar carga hacia La Molina (E1).**
+- **Cartera de clientes en construcción y uso de billeteras digitales (E3).**
+### Perfil predominante
+Adulto joven de Lima Este (21–26 años), con enfoque móvil primero y WhatsApp como canal principal, que sufre retornos sin carga como dolor central (entre 45 % y 90 % de los viajes, o 2–3 veces por semana). Busca cargas de manera informal, con frustración y pérdida de tiempo. Quiere **rentabilizar el viaje de retorno** y está dispuesto a esperar entre unos minutos y 45 minutos por una carga compatible. Prefiere negociar directamente su tarifa y adoptaría la herramienta si incluye **calificaciones de clientes y monitoreo en tiempo real**.
  
 ---
  
 ## Segmento 2: Pequeños y medianos emprendedores
  
-Entrevistados: **E1** Jannet (48, Ate, cosméticos), **E2** Almendra (21, La Victoria, equipo tecnológico), **E3** Camila (23, Surco, postres).
+Entrevistados:
+- **E1** Janet Pávora (48 años, Ate; cosméticos; ~20 pedidos al mes).
+- **E2** Almendra Lavi (21 años, La Victoria; cogerente de Okawa, venta y alquiler de equipos tecnológicos; 100–500 envíos por semana).
+- **E3** Camila Flores (23 años, Santiago de Surco; pastelería Camila Baker; 80–100 envíos al mes).
+### Características objetivas
  
-| Característica | Tipo | Resultado | % | Fuente |
+| Característica | Resultado | % | Fuente | Evidencia en los resúmenes |
 |---|---|---|---|---|
-| Ubicados en Lima | Objetiva | 3 de 3 | 100 % | E1, E2, E3 |
-| Edad ≤ 23 años (rango 21–48) | Objetiva | 2 de 3 | 66,7 % | E2, E3 |
-| Ya trabajan con un transportista de confianza | Objetiva | 2 de 3 | 66,7 % | E1, E2 |
-| Rubros distintos | Objetiva | 0 de 3 coinciden | 0 % | E1, E2, E3 |
-| Seguridad y cuidado de la mercadería como prioridad | Subjetiva | 3 de 3 | 100 % | E1, E2, E3 |
-| Preferencia por transportistas fidelizados | Subjetiva | 2 de 3 | 66,7 % | E1, E2 |
+| Negocios ubicados en Lima | 3 de 3 | 100 % | E1, E2, E3 | Ate, La Victoria, Surco |
+| Usan redes sociales y canales digitales para vender o comunicarse | 3 de 3 | 100 % | E1, E2, E3 | E1: Instagram, Facebook, WhatsApp; E2: redes, tienda web y pasarelas de pago; E3: WhatsApp e Instagram |
+| Dependen de un tercero para el transporte de sus productos | 3 de 3 | 100 % | E1, E2, E3 | E1: empresa tercerizada; E2: aliado comercial con almacén; E3: Uber e InDrive |
+| Rubros distintos (cosméticos, tecnología, pastelería) | 3 de 3 | 100 % | E1, E2, E3 | Sin coincidencia de rubro: el segmento es transversal |
+| Gestionan su negocio principalmente desde el celular | 2 de 3 | 66,7 % | E1, E3 | E1 celular; E3 exclusivamente celular (E2 usa laptop) |
+| Edad ≤ 23 años (rango 21–48) | 2 de 3 | 66,7 % | E2, E3 | 21 y 23 años |
+| Ya trabajan con un transportista o aliado fijo | 2 de 3 | 66,7 % | E1, E2 | E1: relación de confianza de largo plazo; E2: aliado comercial |
+| Envían volúmenes recurrentes (20 al mes hasta 500 por semana) | 3 de 3 | 100 % | E1, E2, E3 | Cifras declaradas en cada resumen |
  
-**Rasgos individuales (33,3 %):** seguimiento en tiempo real y puntualidad (E2); reportar incidencias y acceder a más compradores (E1); menor costo, asignación automática y alto uso digital (E3).
+### Características subjetivas
  
-**Perfil predominante:** emprendedor de Lima cuya prioridad es que su mercadería llegue segura. Tiende a confiar en un transportista conocido. Hay **dos sub-perfiles**:
-- **A: control y confianza (E1, E2):** quiere elegir, guardar y monitorear a su transportista.
-- **B: costo y automatización (E3):** prioriza tarifa baja, asignación automática y acepta esperar más.
+| Característica | Resultado | % | Fuente | Evidencia en los resúmenes |
+|---|---|---|---|---|
+| El costo del transporte es su principal dificultad | 3 de 3 | 100 % | E1, E2, E3 | E1: alza por combustible; E2: costos que reducen el margen; E3: costo en distancias largas |
+| Seguridad y confiabilidad de la mercadería como prioridad | 3 de 3 | 100 % | E1, E2, E3 | E1: seguridad del producto; E2: productos frágiles y riesgo de robo; E3: seguridad y precio |
+| Seguimiento en tiempo real como factor muy importante | 3 de 3 | 100 % | E1, E2, E3 | E1: ubicación y paradas; E2: seguimiento por envío; E3: genera confianza |
+| Dispuestos a publicar sus envíos y recibir ofertas de transportistas | 3 de 3 | 100 % | E1, E2, E3 | E2 lo condiciona a una plataforma privada y verificada |
+| Recomendarían la plataforma si funciona correctamente | 3 de 3 | 100 % | E1, E2, E3 | E2 con reserva sobre compartir su diferencial competitivo |
+| Valoran la verificación o reputación del transportista (calificaciones, opiniones, verificación) | 3 de 3 | 100 % | E1, E2, E3 | E1 y E3: calificaciones y opiniones; E2: transportistas verificados |
+| Usan calificaciones, estrellas u opiniones para confiar en un transportista | 2 de 3 | 66,7 % | E1, E3 | E1: estrellas y recomendaciones; E3: puntuaciones de otros usuarios |
+| Prefieren transportistas fidelizados o recomendados | 2 de 3 | 66,7 % | E1, E2 | Confianza previa con su proveedor actual |
+ 
+### Rasgos individuales (33,3 %)
+- **Preferir pagar mediante la app con garantías (E1)** frente a **pagar directamente al transportista por considerarlo más humano (E3)**; posturas opuestas.
+- **Plataforma privada, con transportistas verificados y centro logístico cercano (E2).**
+- **Cumplimiento de la promesa de entrega en 24 horas y retrasos actuales (E2).**
+- **Dispuesta a esperar más tiempo para reducir el costo y preferencia por elegir entre opciones (E3).**
+- **Recomendaciones de terceros para evaluar nuevas alternativas (E1).**
+- **Uso de laptop como herramienta principal de gestión (E2).**
+### Perfil predominante
+Emprendedor de Lima, con negocio digital y envíos recurrentes, cuya prioridad es que su mercadería llegue **segura y a un costo razonable**. Depende de un transportista tercerizado, valora la reputación (calificaciones y verificación) y exige **seguimiento en tiempo real**. Está dispuesto a publicar sus envíos y recibir ofertas si la plataforma es confiable. Hay **dos sub-perfiles**:
+- **A: control y confianza (E1, E2):** quiere elegir, fidelizar, verificar y monitorear a su transportista; prioriza seguridad sobre precio.
+- **B: costo y flexibilidad (E3):** prioriza tarifa baja, acepta esperar más y valora elegir entre opciones; con alto uso digital.
 ---
  
 ## Base para los arquetipos
  
 | | Transportista | Emprendedor |
 |---|---|---|
-| **Dolor** | Retorno vacío que genera pérdidas (100 %) | Riesgo para la mercadería (100 %) |
-| **Motivación** | Rentabilizar viajes de regreso | Seguridad y confiabilidad del traslado |
-| **Condición de adopción** | Calificación (100 %) y monitoreo (66,7 %) | Transportista confiable (66,7 %) |
-| **Comportamiento** | Móvil primero, negocia precio | Fidelizado, salvo sub-perfil B |
+| **Dolor** | Retorno sin carga que genera pérdidas (100 %) | Costo de transporte (100 %) y riesgo para la mercadería (100 %) |
+| **Motivación** | Rentabilizar los viajes de retorno (100 %) | Entregas seguras, confiables y a menor costo (100 %) |
+| **Condición de adopción** | Calificaciones (100 %) y monitoreo en tiempo real (100 %) | Seguimiento en tiempo real (100 %) y transportista verificado o bien calificado (100 %) |
+| **Comportamiento** | Móvil primero, WhatsApp y mapas, búsqueda informal de carga (100 %); negocia precio directamente (100 %) | Canales digitales (100 %), transportista tercerizado (100 %); fidelizado, salvo sub-perfil B (66,7 %) |
+| **Disposición** | Esperaría de 15 a 45 min por una carga (100 %) | Publicaría envíos y recibiría ofertas (100 %) |
  
-**Conexión clave:** ambos segmentos piden **confianza y seguridad** (calificaciones, seguimiento, reporte de incidencias), lo que apunta a una propuesta de valor basada en reputación y trazabilidad.
+**Conexión clave:** ambos segmentos coinciden en pedir **confianza y seguridad** (calificaciones, seguimiento en tiempo real, verificación). Además, el problema es complementario: el transportista tiene capacidad ociosa en el retorno y el emprendedor busca transporte más barato y seguro. Esto apunta a una propuesta de valor basada en **reputación y trazabilidad**, que conecte la capacidad vacía con la demanda de envíos.
+ 
+**Limitación metodológica:** con n = 3 por segmento, cada entrevistado representa 33,3 %. Los porcentajes son indicativos y sirven para construir arquetipos, no para generalizar estadísticamente.
+ 
