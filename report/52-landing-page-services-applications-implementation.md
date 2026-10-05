@@ -81,7 +81,7 @@ Al cierre del Sprint 1, el Landing Page quedó publicado en una URL pública. Pr
   <img src="../assets/images/landingimplementada3.jpeg" alt="Landing Page v1 - Testimonials and footer" width="800">
 </div>
 
-**Video de navegación del Sprint 1:** [Ver en Microsoft Stream](upc-pre-202620-1asi0730-8084-StackRoot-productnavigation-sprint-1.mp4)
+**Video de navegación del Sprint 1:** [upc-pre-202620-1asi0730-8084-StackRoot-productnavigation-sprint-1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202414356_upc_edu_pe/IQAHwNmBh-BrSIywebxTh1XRAXSQ67CxwXjsw4F17WnJ3nQ?e=dc5eL3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
  
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
  
