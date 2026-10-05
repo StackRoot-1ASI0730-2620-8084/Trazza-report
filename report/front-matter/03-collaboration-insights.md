@@ -11,6 +11,5 @@ Durante la primera entrega, el equipo se centró en la elaboración y culminaci�
 **Evidencias de colaboración (Analíticas y Commits):**
 
 <div align="center">
-  <img src="../../assets/images/collaboration/delivery1-commits.png" alt="Commits y Analíticas - Entrega 1">
-  <p><i>(Reemplazar con la captura de pantalla de analíticas y commits de la Entrega 1)</i></p>
+  <img src="../assets/images/githubcommits1.jpeg" alt="Commits y Analíticas - Entrega 1" width="700">
 </div>

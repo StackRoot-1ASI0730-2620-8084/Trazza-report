@@ -13,7 +13,7 @@ En esta sección se especifican los aspectos principales del Sprint Planning Mee
 | Sprint # | Sprint 1 |
 | :--- | :--- |
 | **Sprint Planning Background** | |
-| **Date** | 2026-09-01 |
+| **Date** | 2026-09-18 |
 | **Time** | 10:00 AM |
 | **Location** | Reunión virtual vía Microsoft Teams |
 | **Prepared By** | Peñaranda, Gabriel |
@@ -21,9 +21,9 @@ En esta sección se especifican los aspectos principales del Sprint Planning Mee
 | **Sprint 1 – 1 Review Summary** | N/A (Al ser el primer Sprint del proyecto). |
 | **Sprint 1 – 1 Retrospective Summary** | N/A (Al ser el primer Sprint del proyecto). |
 | **Sprint Goal & User Stories** | |
-| **Sprint 1 Goal** | "Our focus is on offering an informative entry point and basic authentication flow to new platform users. We believe it delivers confidence in the product to independent drivers and SMB owners. This will be confirmed when visitors can navigate the Landing Page and successfully complete the registration process in the Frontend." |
-| **Sprint 1 Velocity** | 30 Story Points. |
-| **Sum of Story Points** | 28 Story Points. |
+| **Sprint 1 Goal** | Nuestro propósito es concebir y lanzar la versión inicial de la landing page para nuestro sistema de gestión de rutas, fundamentando su diseño en los hallazgos de las entrevistas realizadas a administradores y transportistas del sector logístico.Creemos que este entregable generará un impacto positivo y ofrecerá valor desde el primer contacto, transmitiendo con precisión la propuesta de valor del producto y la proyección estratégica de nuestra solución.Sabremos que hemos tenido éxito cuando los usuarios comprendan de manera intuitiva las ventajas clave de la plataforma y completen el formulario de contacto o soliciten más información de forma activa.|
+| **Sprint 1 Velocity** | 5 Story Points. |
+| **Sum of Story Points** | 15 Story Points. |
 
 ### 5.2.1.2. Aspect Leaders and Collaborators
 
@@ -41,7 +41,7 @@ El objetivo principal de este Sprint 1 es implementar la primera interacción de
 
 [URL público del Board: https://youtrack.jetbrains.com/trazza-board/sprint-1]
 
-*(Insertar imagen del board aquí: `![Sprint 1 Board](../assets/images/chapter5/sprint1/board.png)`)*
+*(Insertar imagen del tablero de YouTrack/Trello para el Sprint 1 aquí)*
 
 | Sprint # | Sprint 1 | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -67,7 +67,13 @@ En esta sección se explican y presentan los avances en implementación con rela
 
 En este Sprint hemos logrado implementar el Front-end de la Landing Page y conectar el formulario de registro con la API de autenticación. A continuación, se presentan screenshots de las principales vistas implementadas.
 
-*(Insertar capturas de ejecución aquí: `![Landing Page Execution](../assets/images/chapter5/sprint1/execution1.png)`)*
+<div align="center">
+  <img src="../assets/images/landingimplementada1.jpeg" alt="Landing Page Implementada - Vista 1" width="700">
+  <br><br>
+  <img src="../assets/images/landingimplementada2.jpeg" alt="Landing Page Implementada - Vista 2" width="700">
+  <br><br>
+  <img src="../assets/images/landingimplementada3.jpeg" alt="Landing Page Implementada - Vista 3" width="700">
+</div>
 
 **Enlace de demostración (Video):** [URL del video de demostración de Sprint 1]
 
@@ -83,7 +89,7 @@ Se han documentado los Endpoints correspondientes al módulo de Autenticación (
 **URL del repositorio de Web Services:** [https://github.com/StackRoot-1ASI0730-2620-8084/Trazza-API]
 **Commits relacionados (Docs):** `e5d6f7g`
 
-*(Insertar imagen de Swagger UI: `![Swagger Auth](../assets/images/chapter5/sprint1/swagger.png)`)*
+*(Insertar imagen de Swagger UI cuando el backend esté desplegado)*
 
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
@@ -91,10 +97,16 @@ Durante este Sprint, el equipo configuró los proyectos base y automatizó su de
 * **Landing Page:** Se aprovisionó un proyecto en AWS Amplify, conectándolo directamente con la rama `main` del repositorio `Trazza-LandingPage`.
 * **API:** Se creó una instancia EC2 base y una instancia RDS MySQL para preparar la persistencia de datos.
 
-*(Insertar captura de consola AWS Amplify: `![AWS Amplify Deploy](../assets/images/chapter5/sprint1/deploy.png)`)*
+<div align="center">
+  <img src="../assets/images/trazzalandingpagedesplegada.jpeg" alt="Landing Page Desplegada en AWS Amplify" width="700">
+</div>
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 1, el equipo mantuvo reuniones diarias (Daily Scrums) y usó GitHub Insights para medir el impacto de la colaboración. La división de tareas (LACX) permitió que cada líder de aspecto pudiera integrar su código eficientemente.
 
-*(Insertar imagen de GitHub Contributors / Insights: `![GitHub Insights](../assets/images/chapter5/sprint1/insights.png)`)*
+<div align="center">
+  <img src="../assets/images/githubcommits2.jpeg" alt="GitHub Commits y Colaboración 1" width="700">
+  <br><br>
+  <img src="../assets/images/githubcommits3.jpeg" alt="GitHub Commits y Colaboración 2" width="700">
+</div>
