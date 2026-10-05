@@ -36,26 +36,36 @@ A continuación se detallan las entidades principales de Trazza, organizadas por
 
 ## 4.6.2. Software Architecture Context Diagram
 
-A continuación se presenta el **Diagrama de Contexto** (Nivel 1), el cual ilustra de manera global la interacción de Trazza Platform con sus actores y sistemas externos.
+A continuación se presenta el **Context Diagram** (Nivel 1), el cual ilustra de manera global la interacción de Trazza Platform con sus actores y sistemas externos.
 
-![C4 Context Diagram](../assets/images/chapter4/domain-drive-architecture/c4-context.png)
+![C4 Context Diagram](../assets/images/chapter4/domain-drive-architecture/SystemContext.png)
+
+**Diagram key**
+![C4 Context Diagram - Key](../assets/images/chapter4/domain-drive-architecture/SystemContext-key.png)
+
 
 ## 4.6.3. Software Architecture Container Diagrams
 
-Haciendo un acercamiento, el **Diagrama de Contenedores** (Nivel 2) detalla las aplicaciones principales que conforman el sistema y cómo se comunican entre sí.
+Haciendo un acercamiento, el **Container diagram** (Nivel 2) detalla las aplicaciones principales que conforman el sistema y cómo se comunican entre sí.
 
-![C4 Container Diagram](../assets/images/chapter4/domain-drive-architecture/c4-container.png)
+![C4 Container Diagram](../assets/images/chapter4/domain-drive-architecture/Containers.png)
 
+**Diagram key**
+![C4 Container Diagram - Key](../assets/images/chapter4/domain-drive-architecture/Containers-key.png)
 ## 4.6.4. Software Architecture Components Diagrams
 
 A continuación se detalla la arquitectura interna de los dos contenedores principales de la plataforma Trazza, ilustrando cómo las responsabilidades se distribuyen a nivel de código fuente.
 
 ### 4.6.4.1. Frontend Web Application Components
 
-![C4 Component Diagram Frontend](../assets/images/chapter4/domain-drive-architecture/c4-component-frontend.png)
+![C4 Component Diagram Frontend](../assets/images/chapter4/domain-drive-architecture/Components-WebApp.png)
 
+**Diagram key**
+![C4 Component Diagram Frontend](../assets/images/chapter4/domain-drive-architecture/Components-WebApp-key.png)
 ### 4.6.4.2. API Application Components (Matchmaking Core)
 
-![C4 Component Diagram API](../assets/images/chapter4/domain-drive-architecture/c4-component-api.png)
+![C4 Component Diagram API](../assets/images/chapter4/domain-drive-architecture/Components-API.png)
 
-- *Nota:* El contenedor Landing Page no fue detallado a nivel de componentes debido a su naturaleza estática (HTML/CSS/JS) sin lógica de negocio compleja.
+**Diagram key**
+![C4 Component Diagram API - Key](../assets/images/chapter4/domain-drive-architecture/Components-API-key.png)
+
