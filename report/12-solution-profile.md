@@ -123,4 +123,4 @@ En el siguiente gráfico se consolida el proceso estratégico a través del Lean
   <em>Figura: Lean UX Canvas de Trazza. Elaboración propia.</em>
 </div>
 
-> [Lean UX Canvas de Trazza desde la plataforma Canva](https://canva.link/41xql8grxyjm2m8).
+> Lean UX Canvas: [https://canva.link/41xql8grxyjm2m8](https://canva.link/41xql8grxyjm2m8)
