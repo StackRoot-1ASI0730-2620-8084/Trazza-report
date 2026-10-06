@@ -127,19 +127,19 @@ A continuación, explicamos y detallamos las analíticas de colaboración en bas
 
 <div align="center">
   <h4>1. Pulse</h4>
-  <img src="../assets/images/github-pulse.jpeg" alt="GitHub Pulse" width="700">
+  <img src="../assets/images/github-pulse.jpeg" alt="GitHub Pulse" width="500">
   <br><br>
 
   <h4>2. Contributors</h4>
-  <img src="../assets/images/github-contributors.jpeg" alt="GitHub Contributors" width="700">
+  <img src="../assets/images/github-contributors.jpeg" alt="GitHub Contributors" width="500">
   <br><br>
 
   <h4>3. Traffic</h4>
-  <img src="../assets/images/github-traffic.jpeg" alt="GitHub Traffic" width="700">
+  <img src="../assets/images/github-traffic.jpeg" alt="GitHub Traffic" width="500">
   <br><br>
 
   <h4>4. Network Graph</h4>
-  <img src="../assets/images/github-network-graph.jpeg" alt="GitHub Network Graph" width="700">
+  <img src="../assets/images/github-network-graph.jpeg" alt="GitHub Network Graph" width="500">
 </div>
 
 ## Contenido
@@ -777,13 +777,19 @@ Para ello, se emplean herramientas de análisis centradas en el usuario, como Us
 A continuación, se presentan los arquetipos de nuestros segmentos objetivos. La construcción de estos User Personas se basó directamente en la información recolectada durante las entrevistas, tomando en cuenta las principales frustraciones, motivaciones y el nivel de digitalización de los usuarios. Además, se consideró el análisis de la competencia para identificar qué carencias actuales en el mercado podrían ser resueltas para estos perfiles. Cada ficha incluye información demográfica, metas, marcas afines y su principal problemática logística.
 
 #### User Persona del Segmento Objetivo 1: Transportistas de Carga Terrestre
-![User Persona de Juan David Ramos, transportista de carga terrestre](../assets/images/chapter2/needfinding/user-persona-JuanDavid.png)
+<div align="center">
+  <img src="../assets/images/chapter2/needfinding/user-persona-JuanDavid.png" alt="User Persona de Juan David Ramos, transportista de carga terrestre" width="550">
+</div>
+
 > User Persona - Juan David Ramos: [https://uxpressia.com/w/v8FzI/p/7Mes0](https://uxpressia.com/w/v8FzI/p/7Mes0)
 
 <br>
 
 #### User Persona del Segmento Objetivo 2: Pequeños y Medianos Emprendedores
-![User Persona de Valeria Torres, emprendedora MYPE](../assets/images/chapter2/needfinding/user-persona-ValeriaTorres.png)
+<div align="center">
+  <img src="../assets/images/chapter2/needfinding/user-persona-ValeriaTorres.png" alt="User Persona de Valeria Torres, emprendedora MYPE" width="550">
+</div>
+
 > User Persona - Valeria Torres: [https://uxpressia.com/w/v8FzI/p/tzGKz](https://uxpressia.com/w/v8FzI/p/tzGKz)
 
 <br>
@@ -819,13 +825,19 @@ A continuación se presentan las versiones As-Is de los User Journey Maps, es de
 Para la elaboración de estos Empathy Maps, el equipo analizó las respuestas y el lenguaje corporal de los usuarios durante las entrevistas. Colocando al User Persona en el centro, mapeamos sus percepciones respondiendo a: ¿Qué está diciendo y haciendo en su día a día?, ¿Qué escucha de sus colegas o clientes?, y ¿Qué ve en su entorno laboral? Posteriormente, identificamos sus *Pains* (frustraciones por procesos manuales, pérdida de dinero, inseguridad) y sus *Gains* (lo que esperan lograr y cómo una solución tecnológica podría convencerlos al resolver sus problemas).
 
 #### User Persona 1: Juan David Ramos
-![Empathy Map de Juan David](../assets/images/chapter2/needfinding/empathy-map-juan.png)
+<div align="center">
+  <img src="../assets/images/chapter2/needfinding/empathy-map-juan.png" alt="Empathy Map de Juan David" width="550">
+</div>
+
 > Empathy Map - Juan David Ramos: [https://uxpressia.com/w/v8FzI/p/K9mve](https://uxpressia.com/w/v8FzI/p/K9mve)
 
 <br>
 
 #### User Persona 2: Valeria Torres
-![Empathy Map de Valeria](../assets/images/chapter2/needfinding/empathy-map-valeria.png)
+<div align="center">
+  <img src="../assets/images/chapter2/needfinding/empathy-map-valeria.png" alt="Empathy Map de Valeria" width="550">
+</div>
+
 > Empathy Map - Valeria Torres: [https://uxpressia.com/w/v8FzI/p/SQmML](https://uxpressia.com/w/v8FzI/p/SQmML)
 
 ## 2.4. Big Picture Event Storming
@@ -935,7 +947,9 @@ El Impact Mapping es una técnica visual y estratégica de planificación que co
 
 A continuación, se presenta el Impact Map unificado de Trazza, el cual articula los Business Goals (definidos bajo criterios SMART), los actores identificados a partir de los User Personas (Juan David Ramos y Valeria Torres), los impactos esperados en su comportamiento, los entregables (deliverables) de la plataforma y su posterior descomposición en historias de usuario:
 
-![Impact Map de Trazza](../assets/images/chapter3/impact-map.png)
+<div align="center">
+  <img src="../assets/images/chapter3/impact-map.png" alt="Impact Map de Trazza" width="600">
+</div>
 
 > Impact Mapping: [https://uxpressia.com/w/v8FzI/i/yOY8J](https://uxpressia.com/w/v8FzI/i/yOY8J)
 
