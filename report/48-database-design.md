@@ -21,6 +21,7 @@ Esta organización mantiene una separación lógica entre los distintos dominios
 A continuación, explicamos de forma sencilla cómo está organizada nuestra base de datos:
 
 **1. IAM & Profiles**
+
 El Bounded Context **IAM & Profiles** almacena la información necesaria para identificar a los usuarios y administrar sus perfiles dentro de la plataforma. La tabla `users` centraliza la información utilizada para la autenticación y determina el rol del usuario dentro de Trazza.
 
 Dependiendo del rol, un usuario puede disponer de un `carrier_profile` o un `merchant_profile`. Los transportistas pueden registrar uno o más vehículos mediante la tabla `vehicles`, los cuales posteriormente pueden ser utilizados para publicar rutas de retorno.
@@ -28,6 +29,7 @@ Dependiendo del rol, un usuario puede disponer de un `carrier_profile` o un `mer
 ![Diagrama Entidad-Relación - IAM & Profiles](../assets/images/chapter4/diagrams-v2/DBD-trazza/DBD-Trazza-IAM.png)
 
 **2. Matchmaking & Routing**
+
 El Bounded Context **Matchmaking & Routing** almacena la información relacionada con la publicación de rutas de retorno, las solicitudes de envío y el proceso de negociación entre transportistas y emprendedores.
 
 La tabla `return_routes` registra las rutas publicadas por los transportistas y el vehículo asignado a cada una de ellas. Por su parte, `shipment_requests` almacena las solicitudes de transporte realizadas por los emprendedores.
@@ -38,6 +40,7 @@ La relación entre una solicitud de envío y una ruta disponible se representa m
 
 
 **3. Service Execution & Monitoring**
+
 El Bounded Context **Service Execution & Monitoring** almacena la información correspondiente a la ejecución y seguimiento de los servicios logísticos que han sido acordados entre los usuarios.
 
 La tabla `trips` representa el viaje logístico generado a partir de una propuesta aceptada. Cada viaje mantiene información sobre su estado y los momentos en los que se realiza el recojo y la entrega de la carga.
@@ -49,6 +52,7 @@ Durante la ejecución del servicio, `tracking_points` almacena los puntos de geo
 
 
 **4. Payment & Billing**
+
 El Bounded Context **Payment & Billing** almacena la información relacionada con los pagos efectuados por los servicios logísticos realizados mediante Trazza.
 
 La tabla `payment_transactions` registra la transacción asociada a un viaje, identificando al usuario que realiza el pago, al usuario que lo recibe, el monto, la moneda, el método de pago y el estado de la operación. También permite almacenar el identificador externo generado por el proveedor de pagos.
@@ -59,6 +63,7 @@ Cuando una transacción genera un comprobante, este es almacenado mediante la ta
 
 
 **5. Loyalty & Reputation**
+
 El Bounded Context **Loyalty & Reputation** gestiona la información utilizada para construir la reputación de los usuarios dentro de Trazza.
 
 La tabla `ratings` registra las calificaciones realizadas después de un viaje, identificando el servicio asociado, el usuario que realiza la calificación y el usuario evaluado. También almacena la puntuación, el comentario y la fecha en que fue registrada.
