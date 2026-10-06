@@ -1,0 +1,188 @@
+Actúa como un Agile Coach y Administrador de Jira experto. Tu tarea es crear el Backlog del proyecto 'Trazza' estructurando Epics y User Stories, asignando Story Points y organizándolas en Sprints definidos.
+
+Por favor, ejecuta las siguientes acciones de forma automática en este proyecto:
+
+### PASO 1: CREAR LOS EPICS
+- Crear Epic: "EP01: Gestión de Identidad y Accesos"
+- Crear Epic: "EP02: Publicación de Viajes y Carga"
+- Crear Epic: "EP03: Búsqueda, Emparejamiento y Negociación (Match)"
+- Crear Epic: "EP04: Monitoreo en Tiempo Real y Estado de Carga"
+- Crear Epic: "EP05: Reputación y Soporte"
+- Crear Epic: "EP06: Gestión de Perfil y Flotas"
+
+### PASO 2: CREAR HISTORIAS EN SPRINT 0
+Crea las siguientes incidencias (tipo Story), vincúlalas a su Epic correspondiente, asígnales el valor de Story Points indicado y colócalas en el SPRINT 0:
+
+**Story:** US04 - Landing Page: Propuesta para Transportistas
+- **Descripción:** Como visitante del segmento Transportista quiero visualizar los beneficios de la aplicación en el sitio web estático para comprender cómo me ayuda a rentabilizar mis viajes vacíos.
+- **Epic Link:** Gestión de Identidad y Accesos
+- **Story Points:** 2
+
+**Story:** US05 - Landing Page: Propuesta para Emprendedores
+- **Descripción:** Como visitante del segmento Emprendedor quiero identificar cómo la plataforma asegura mis envíos en el sitio web estático para decidir registrarme con total confianza.
+- **Epic Link:** Gestión de Identidad y Accesos
+- **Story Points:** 2
+
+**Story:** US25 - Landing Page: Testimonios de Éxito
+- **Descripción:** Como visitante del segmento Emprendedor quiero leer testimonios de otros usuarios en el sitio web estático para validar la credibilidad de la plataforma.
+- **Epic Link:** Gestión de Identidad y Accesos
+- **Story Points:** 2
+
+**Story:** US06 - Autenticación de Usuarios vía API (RESTful API)
+- **Descripción:** Como Developer quiero un servicio de autenticación que valide credenciales y entregue un token para proteger de forma segura las rutas privadas de la API.
+- **Epic Link:** Gestión de Identidad y Accesos
+- **Story Points:** 5
+
+**Story:** US07 - Registro de Usuarios vía API (RESTful API)
+- **Descripción:** Como Developer quiero un servicio de registro de nuevos usuarios que cifre las contraseñas antes de almacenarlas para garantizar la seguridad de la información en la base de datos.
+- **Epic Link:** Gestión de Identidad y Accesos
+- **Story Points:** 5
+
+
+### PASO 2: CREAR HISTORIAS EN SPRINT 1
+Crea las siguientes incidencias (tipo Story), vincúlalas a su Epic correspondiente, asígnales el valor de Story Points indicado y colócalas en el SPRINT 1:
+
+**Story:** US01 - Registro de Transportista
+- **Descripción:** Como transportista de carga terrestre quiero registrar mis datos personales y los de mi vehículo en la plataforma para poder ofrecer mi disponibilidad en rutas de retorno.
+- **Epic Link:** Gestión de Identidad y Accesos
+- **Story Points:** 3
+
+**Story:** US02 - Registro de Emprendedor
+- **Descripción:** Como pequeño o mediano emprendedor quiero registrar los datos de mi empresa en la plataforma para poder buscar transportistas disponibles y coordinar envíos de mercadería.
+- **Epic Link:** Gestión de Identidad y Accesos
+- **Story Points:** 3
+
+**Story:** US03 - Inicio de Sesión de Usuario
+- **Descripción:** Como usuario registrado quiero iniciar sesión utilizando mis credenciales para acceder a las funcionalidades correspondientes a mi perfil.
+- **Epic Link:** Gestión de Identidad y Accesos
+- **Story Points:** 3
+
+**Story:** US08 - Publicación de Ruta de Retorno
+- **Descripción:** Como transportista de carga terrestre quiero publicar mi ruta de regreso y la capacidad disponible de mi vehículo para recibir solicitudes de carga compatibles.
+- **Epic Link:** Publicación de Viajes y Carga
+- **Story Points:** 5
+
+**Story:** US09 - Solicitud de Envío de Mercadería
+- **Descripción:** Como pequeño o mediano emprendedor quiero solicitar el envío de mis productos especificando peso y destino para encontrar transportistas con espacio libre en dicha ruta.
+- **Epic Link:** Publicación de Viajes y Carga
+- **Story Points:** 5
+
+**Story:** US11 - Búsqueda Manual de Transportistas
+- **Descripción:** Como pequeño emprendedor quiero buscar transportistas disponibles especificando fechas y rutas para elegir la mejor opción.
+- **Epic Link:** Búsqueda, Emparejamiento y Negociación (Match)
+- **Story Points:** 5
+
+
+### PASO 2: CREAR HISTORIAS EN SPRINT 2
+Crea las siguientes incidencias (tipo Story), vincúlalas a su Epic correspondiente, asígnales el valor de Story Points indicado y colócalas en el SPRINT 2:
+
+**Story:** US10 - Sugerencias Automáticas de Carga
+- **Descripción:** Como transportista de carga terrestre quiero recibir sugerencias automáticas de carga compatibles con mi ruta de retorno para no viajar con el flete vacío.
+- **Epic Link:** Búsqueda, Emparejamiento y Negociación (Match)
+- **Story Points:** 5
+
+**Story:** US12 - Aceptar Solicitud de Carga
+- **Descripción:** Como transportista de carga terrestre quiero aceptar una solicitud de carga sugerida para asegurar el viaje de retorno.
+- **Epic Link:** Búsqueda, Emparejamiento y Negociación (Match)
+- **Story Points:** 5
+
+**Story:** US13 - Negociación y Propuesta de Tarifa
+- **Descripción:** Como pequeño emprendedor quiero proponer una tarifa por el envío al transportista para llegar a un acuerdo económico directo.
+- **Epic Link:** Búsqueda, Emparejamiento y Negociación (Match)
+- **Story Points:** 5
+
+**Story:** US29 - Mensajería Integrada (Chat)
+- **Descripción:** Como pequeño emprendedor quiero disponer de un canal de chat integrado en la plataforma para comunicarme con el transportista emparejado y coordinar rápidamente los pormenores del recojo.
+- **Epic Link:** Búsqueda, Emparejamiento y Negociación (Match)
+- **Story Points:** 8
+
+**Story:** US16 - Confirmación de Recojo de Mercadería
+- **Descripción:** Como transportista de carga terrestre quiero marcar en la aplicación cuando haya recogido la carga para iniciar formalmente el monitoreo del viaje.
+- **Epic Link:** Monitoreo en Tiempo Real y Estado de Carga
+- **Story Points:** 5
+
+**Story:** US17 - Confirmación de Entrega
+- **Descripción:** Como transportista de carga terrestre quiero confirmar que la mercadería ha sido entregada en el destino para finalizar el viaje y habilitar las calificaciones.
+- **Epic Link:** Monitoreo en Tiempo Real y Estado de Carga
+- **Story Points:** 5
+
+
+### PASO 2: CREAR HISTORIAS EN SPRINT 3
+Crea las siguientes incidencias (tipo Story), vincúlalas a su Epic correspondiente, asígnales el valor de Story Points indicado y colócalas en el SPRINT 3:
+
+**Story:** US18 - Registro de Ubicación GPS vía API (RESTful API)
+- **Descripción:** Como Developer quiero un servicio que reciba y actualice constantemente las coordenadas GPS de un viaje en curso para alimentar el seguimiento en vivo.
+- **Epic Link:** Monitoreo en Tiempo Real y Estado de Carga
+- **Story Points:** 5
+
+**Story:** US15 - Visualización de Ubicación en Vivo
+- **Descripción:** Como pequeño emprendedor quiero ver la ubicación de mi mercadería en tiempo real para tener tranquilidad durante el traslado.
+- **Epic Link:** Monitoreo en Tiempo Real y Estado de Carga
+- **Story Points:** 8
+
+**Story:** US30 - Alerta de Desvío en Ruta
+- **Descripción:** Como pequeño emprendedor quiero recibir una notificación automática si el camión se desvía más de 2 kilómetros de la ruta planificada para estar alerta ante posibles riesgos o retrasos.
+- **Epic Link:** Monitoreo en Tiempo Real y Estado de Carga
+- **Story Points:** 8
+
+**Story:** US31 - Confirmación de Recepción y Pago
+- **Descripción:** Como pequeño emprendedor quiero confirmar la recepción conforme de la mercadería desde mi aplicación para validar el servicio y procesar el abono del flete correspondiente.
+- **Epic Link:** Monitoreo en Tiempo Real y Estado de Carga
+- **Story Points:** 8
+
+**Story:** US19 - Calificación del Transportista
+- **Descripción:** Como pequeño emprendedor quiero calificar de 1 a 5 estrellas al transportista tras finalizar un viaje para ayudar a construir su reputación en la plataforma.
+- **Epic Link:** Reputación y Soporte
+- **Story Points:** 2
+
+**Story:** US20 - Calificación del Cliente
+- **Descripción:** Como transportista de carga terrestre quiero calificar al emprendedor (cliente) según su nivel de cumplimiento y trato para alertar a otros conductores.
+- **Epic Link:** Reputación y Soporte
+- **Story Points:** 2
+
+
+### PASO 2: CREAR HISTORIAS EN BACKLOG GENERAL
+Crea las siguientes incidencias (tipo Story), vincúlalas a su Epic correspondiente, asígnales el valor de Story Points indicado y colócalas en el BACKLOG GENERAL:
+
+**Story:** US26 - Validación de Identidad (KYC)
+- **Descripción:** Como administrador del sistema quiero requerir y validar el DNI de los transportistas durante su registro para garantizar un ecosistema seguro y confiable para los emprendedores.
+- **Epic Link:** Gestión de Identidad y Accesos
+- **Story Points:** 8
+
+**Story:** US27 - Cancelación Temprana de Solicitud
+- **Descripción:** Como pequeño emprendedor quiero poder cancelar mi solicitud de viaje antes del recojo de mercadería para anular la operación si tengo un imprevisto de última hora.
+- **Epic Link:** Publicación de Viajes y Carga
+- **Story Points:** 5
+
+**Story:** US28 - Gestión de Compensación (Lucro Cesante)
+- **Descripción:** Como transportista de carga terrestre quiero recibir una compensación económica si el cliente cancela un viaje cuando ya me encuentro en ruta, para resarcir los gastos generados (lucro cesante).
+- **Epic Link:** Publicación de Viajes y Carga
+- **Story Points:** 8
+
+**Story:** US21 - Reportar Problemas con la Carga
+- **Descripción:** Como pequeño emprendedor quiero poder reportar un problema si mi mercadería llega dañada o incompleta para que la plataforma tome acciones de soporte.
+- **Epic Link:** Reputación y Soporte
+- **Story Points:** 2
+
+**Story:** US22 - Registro de Calificaciones vía API (RESTful API)
+- **Descripción:** Como Developer quiero un servicio para registrar las calificaciones entre usuarios y recalcular el promedio general del perfil afectado.
+- **Epic Link:** Reputación y Soporte
+- **Story Points:** 5
+
+**Story:** US23 - Registro de Nuevo Vehículo
+- **Descripción:** Como transportista de carga terrestre quiero añadir los datos de un nuevo camión a mi perfil (dimensiones, capacidad) para poder asignarlo a diferentes viajes.
+- **Epic Link:** Gestión de Perfil y Flotas
+- **Story Points:** 3
+
+**Story:** US24 - Historial de Envíos
+- **Descripción:** Como pequeño emprendedor quiero visualizar el historial de mis envíos pasados para llevar un control de mis operaciones logísticas.
+- **Epic Link:** Gestión de Perfil y Flotas
+- **Story Points:** 5
+
+**Story:** US14 - Consulta de Rutas Disponibles vía API (RESTful API)
+- **Descripción:** Como Developer quiero un servicio de consulta que devuelva las rutas de retorno disponibles filtradas por origen y destino para mostrar los resultados en la aplicación cliente.
+- **Epic Link:** Búsqueda, Emparejamiento y Negociación (Match)
+- **Story Points:** 5
+
+
+**Instrucción final para Rovo:** Por favor, procesa estas listas y genera inmediatamente todas las incidencias (Epics y Stories), vincula las historias a sus epics, asigna los Story Points y organízalas en los Sprints 0, 1, 2, 3 y el Backlog tal cual se especifica arriba.
