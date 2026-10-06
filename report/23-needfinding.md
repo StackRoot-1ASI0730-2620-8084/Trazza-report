@@ -6,14 +6,14 @@ Para ello, se emplean herramientas de análisis centradas en el usuario, como Us
 A continuación, se presentan los arquetipos de nuestros segmentos objetivos. La construcción de estos User Personas se basó directamente en la información recolectada durante las entrevistas, tomando en cuenta las principales frustraciones, motivaciones y el nivel de digitalización de los usuarios. Además, se consideró el análisis de la competencia para identificar qué carencias actuales en el mercado podrían ser resueltas para estos perfiles. Cada ficha incluye información demográfica, metas, marcas afines y su principal problemática logística.
 
 #### User Persona del Segmento Objetivo 1: Transportistas de Carga Terrestre
-![User Persona de Juan David Ramos, transportista de carga terrestre](../assets/images/chapter2/needfinding/user-persona-juan-david.jpeg)
-> *Fuente: Elaboración propia en [UXPressia - User Persona: Juan David Ramos](https://uxpressia.com/w/v8FzI/p/XLeV6)*
+![User Persona de Juan David Ramos, transportista de carga terrestre](../assets/images/chapter2/needfinding/user-persona-JuanDavid.png)
+> User Persona - Juan David Ramos: [https://uxpressia.com/w/v8FzI/p/7Mes0](https://uxpressia.com/w/v8FzI/p/7Mes0)
 
 <br>
 
 #### User Persona del Segmento Objetivo 2: Pequeños y Medianos Emprendedores
-![User Persona de Valeria Torres, emprendedora MYPE](../assets/images/chapter2/needfinding/user-persona-valeria.jpeg)
-> *Fuente: Elaboración propia en [UXPressia - User Persona: Valeria Torres](https://uxpressia.com/w/v8FzI/p/KVlW7)*
+![User Persona de Valeria Torres, emprendedora MYPE](../assets/images/chapter2/needfinding/user-persona-ValeriaTorres.png)
+> User Persona - Valeria Torres: [https://uxpressia.com/w/v8FzI/p/tzGKz](https://uxpressia.com/w/v8FzI/p/tzGKz)
 
 <br>
 
@@ -21,7 +21,7 @@ A continuación, se presentan los arquetipos de nuestros segmentos objetivos. La
 En esta sección se presenta el User Task Matrix, el cual concentra las tareas clave que los representantes de cada segmento (Transportistas y Emprendedores MYPE) realizan para cumplir sus objetivos logísticos. Estas tareas reflejan las actividades del mundo real que se ejecutan independientemente de nuestra futura solución de software.
 
 ![User Task Matrix comparando las tareas de transportistas y emprendedores](../assets/images/chapter2/needfinding/user-task-matrix.jpeg)
-> *Fuente: Elaboración propia en [Canva - User Task Matrix](https://canva.link/ublc7myvirh3hob)*
+> User Task Matrix: [https://canva.link/ublc7myvirh3hob](https://canva.link/ublc7myvirh3hob)
 
 **Análisis de tareas:**
 Al comparar ambos perfiles, observamos que las tareas con mayor frecuencia e importancia para el Emprendedor MYPE son la "Búsqueda de transportistas" y el "Monitoreo del envío", dado que de ello depende la satisfacción de su cliente final. Por su parte, para el Transportista, la "Búsqueda de carga de retorno" y la "Negociación de tarifas" son críticas, ya que impactan directamente en su rentabilidad. 
@@ -34,13 +34,13 @@ A continuación se presentan las versiones As-Is de los User Journey Maps, es de
 
 #### User Persona 1: Juan David Ramos
 ![User Journey Map de Juan David, buscando carga para retorno](../assets/images/chapter2/needfinding/user-journey-map-juan.png)
-> *Fuente: Elaboración propia en [UXPressia - User Journey Map: Juan David Ramos](https://uxpressia.com/w/v8FzI/m/1H5VY)*
+> User Journey Map - Juan David Ramos: [https://uxpressia.com/w/v8FzI/m/1H5VY](https://uxpressia.com/w/v8FzI/m/1H5VY)
 
 <br>
 
 #### User Persona 2: Valeria Torres
 ![User Journey Map de Valeria, coordinando el envío de mercadería](../assets/images/chapter2/needfinding/user-journey-map-valeria.png)
-> *Fuente: Elaboración propia en [UXPressia - User Journey Map: Valeria Torres](https://uxpressia.com/w/v8FzI/m/rEbN7)*
+> User Journey Map - Valeria Torres: [https://uxpressia.com/w/v8FzI/m/rEbN7](https://uxpressia.com/w/v8FzI/m/rEbN7)
 
 <br>
 
@@ -49,10 +49,10 @@ Para la elaboración de estos Empathy Maps, el equipo analizó las respuestas y 
 
 #### User Persona 1: Juan David Ramos
 ![Empathy Map de Juan David](../assets/images/chapter2/needfinding/empathy-map-juan.png)
-> *Fuente: Elaboración propia en [UXPressia - Empathy Map: Juan David Ramos](https://uxpressia.com/w/v8FzI/p/K9mve)*
+> Empathy Map - Juan David Ramos: [https://uxpressia.com/w/v8FzI/p/K9mve](https://uxpressia.com/w/v8FzI/p/K9mve)
 
 <br>
 
 #### User Persona 2: Valeria Torres
 ![Empathy Map de Valeria](../assets/images/chapter2/needfinding/empathy-map-valeria.png)
-> *Fuente: Elaboración propia en [UXPressia - Empathy Map: Valeria Torres](https://uxpressia.com/w/v8FzI/p/SQmML)*
+> Empathy Map - Valeria Torres: [https://uxpressia.com/w/v8FzI/p/SQmML](https://uxpressia.com/w/v8FzI/p/SQmML)
