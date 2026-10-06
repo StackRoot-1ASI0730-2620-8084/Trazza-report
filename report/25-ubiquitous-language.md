@@ -11,5 +11,4 @@
 | **Route Optimization** (Optimización de Ruteo) | Cálculo del trayecto más eficiente entre el punto de recojo y el de entrega, mediante algoritmos como Dijkstra, TSP, Backtracking y BFS. |
 | **Cost Matrix** (Matriz de Costos) | Estructura de datos generada por el motor de optimización que compara distancias, tiempos y costos entre distintas combinaciones de rutas posibles. |
 | **Tracking** (Monitoreo/Trazabilidad) | Seguimiento en tiempo real de la ubicación y estado de la mercancía durante el trayecto, mediante GPS e integraciones IoT futuras. |
-| **Contact Channel** (Canal de Contacto) | Funcionalidad de chat o llamada dentro de la app que permite a Carrier y Merchant coordinar y negociar el servicio (incluyendo el pago) fuera de la plataforma. |
 | **External Settlement** (Liquidación Externa) | Principio de diseño por el cual Trazza no procesa pagos: toda transacción monetaria entre Carrier y Merchant se gestiona por canales externos a la app. |
