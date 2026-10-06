@@ -111,3 +111,138 @@ Los gráficos de Contributors muestran las contribuciones semanales de cada inte
   <br><br>
   <img src="../assets/images/chapter5/sprint1-commits-report.png" alt="Trazza-report commits during Sprint 1" width="800">
 </div>
+
+### 5.2.2. Sprint 2
+
+En esta sección se registra el avance en producto y en trabajo colaborativo correspondiente al Sprint 2.
+
+#### 5.2.2.1. Sprint Planning 2
+
+En el Sprint Planning 2 el equipo definió el objetivo del Sprint y seleccionó las User Stories correspondientes de acuerdo con su prioridad dentro del Product Backlog.
+
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date |05/10/2026 |
+| Time | 10:00 p.m |
+| Location | Modalidad Remota a través de la plataforma Discord |
+| Prepared By |  Peñaranda Caldas, Gabriel Augusto |
+| Attendees (to planning meeting) | Checalla Apaza, Emanuel Renato / Lozano Quispe, Fabricio Jofred / Medina Merma, Ingrid Melani / Peñaranda Caldas, Gabriel Augusto / Vite Celis, Rodrigo Matias |
+| Sprint 1 Review Summary | En este sprint, el equipo avanzó en la primera versión funcional de Trazza, desarrollando la Landing Page y las funcionalidades iniciales de registro y autenticación. También se establecieron las bases para la integración y despliegue de los componentes del sistema. Como mejora, identificamos la necesidad de seguir refinando la experiencia de usuario y fortalecer la integración entre los diferentes módulos. |
+| Sprint 1 Retrospective Summary | Durante este sprint, el equipo mantuvo una colaboración constante mediante la distribución de responsabilidades y el uso de GitHub para integrar los avances. Sin embargo, se identificaron oportunidades de mejora en la coordinación de tareas, comunicación e integración de cambios entre ramas. Para el siguiente sprint, buscaremos mejorar la organización del trabajo y mantener una comunicación más constante entre los integrantes. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | Nuestro enfoque es desplegar la primera versión funcional del frontend de la aplicación web de Trazza. Consideramos que esto permitirá a los usuarios contar con una primera interfaz funcional para interactuar con la plataforma. El objetivo se considerará cumplido cuando el frontend se encuentre desplegado y permita acceder y navegar correctamente por las principales vistas implementadas. |
+| Sprint 2 Velocity |30 Story Points. |
+| Sum of Story Points | 30 Story Points. |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se presentan los líderes y colaboradores responsables de los principales aspectos desarrollados durante el Sprint 2.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page Implementation (L/C) | Landing Page UI Design (L/C) | Landing Page Deployment (L/C) |
+| :--- | :--- | :---: | :---: | :---: |
+| Checalla Apaza, Emanuel Renato | Emanuelca135 | C | C | C |
+| Lozano Quispe, Fabricio Jofred | FabricioZz15 | C | L | C |
+| Medina Merma, Ingrid Melani | Grini913 | L | C | C |
+| Peñaranda Caldas, Gabriel Augusto | gapc2124 | C | C | C |
+| Vite Celis, Rodrigo Matias | rodriznnn | C | C | C |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+En esta sección se detallan las User Stories y las tareas seleccionadas para el Sprint 2, incluyendo su estimación, responsable y estado.
+
+**URL público del Board:** [Agregar URL del Board](URL)
+
+| Sprint # | Sprint 2 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| | | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de desarrollo correspondientes al Sprint 2. La siguiente tabla registra los principales commits realizados en los repositorios del proyecto.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de ejecución de las funcionalidades implementadas durante el Sprint 2.
+
+| Evidence | Description | Related User Story | Status |
+| :--- | :--- | :--- | :--- |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+
+<div align="center">
+
+  <!-- Agregar aquí las imágenes correspondientes a la ejecución del Sprint 2 -->
+
+
+</div>
+
+**Video de navegación del Sprint 2:** [Agregar video](URL)
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de documentación de los servicios implementados durante el Sprint 2.
+
+| Endpoint / Service | Method | Description | Documentation Evidence |
+| :--- | :---: | :--- | :--- |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+
+<div align="center">
+
+  <!-- Agregar aquí evidencias de Swagger / OpenAPI / Web Services -->
+
+
+</div>
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+En esta sección se presentan las evidencias relacionadas con el despliegue del software desarrollado durante el Sprint 2.
+
+| Software Component | Deployment Platform | Repository / Branch | Deployment URL | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| | | | | |
+| | | | | |
+| | | | | |
+
+**URL de despliegue:** [Agregar URL](URL)
+
+<div align="center">
+
+  <!-- Agregar aquí las imágenes correspondientes al despliegue -->
+
+  <img src="../assets/images/chapter5/" alt="Sprint 2 - Software Deployment Evidence" width="800">
+
+</div>
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+En esta sección se presentan las evidencias de colaboración del equipo durante el Sprint 2, considerando las contribuciones realizadas por cada integrante en los repositorios del proyecto.
+
+| Team Member | GitHub Username | Repository | Commits | Pull Requests | Main Contribution |
+| :--- | :--- | :--- | :---: | :---: | :--- |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+
+Los gráficos de Contributors muestran las contribuciones realizadas por cada integrante durante el Sprint 2.
