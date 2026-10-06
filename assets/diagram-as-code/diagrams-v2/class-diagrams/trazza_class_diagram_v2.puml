@@ -1,0 +1,911 @@
+@startuml
+title Trazza - Class Diagram (Web Application, by Bounded Context)
+skinparam packageStyle rectangle
+skinparam classAttributeIconSize 0
+left to right direction
+
+' =====================================================================
+' IAM & PROFILES BOUNDED CONTEXT
+' =====================================================================
+package "IAM & Profiles Bounded Context" as iam {
+
+    package "Domain" as iam_domain {
+        enum UserRole {
+            CARRIER
+            MERCHANT
+            ADMIN
+        }
+
+        class User <<entity>> {
+            - id: Number|null
+            - email: string
+            - role: UserRole
+            + constructor(id, email, role)
+        }
+
+        class CarrierProfile <<entity>> {
+            - id: Number|null
+            - userId: Number
+            - fullName: string
+            - dni: string
+            - phone: string
+            - identityValidated: boolean
+            + constructor(id, userId, fullName, dni, phone, identityValidated)
+        }
+
+        class MerchantProfile <<entity>> {
+            - id: Number|null
+            - userId: Number
+            - businessName: string
+            - ruc: string
+            - businessType: string
+            - address: string
+            + constructor(id, userId, businessName, ruc, businessType, address)
+        }
+
+        class Vehicle <<entity>> {
+            - id: Number|null
+            - carrierProfileId: Number
+            - plate: string
+            - model: string
+            - capacityKg: Number
+            - dimensions: string
+            + constructor(id, carrierProfileId, plate, model, capacityKg, dimensions)
+        }
+
+        class SignInCommand <<command>> {
+            - email: string
+            - password: string
+            + constructor(email, password)
+        }
+
+        class SignUpCommand <<command>> {
+            - email: string
+            - password: string
+            - role: UserRole
+            + constructor(email, password, role)
+        }
+
+        User --> UserRole
+        User "1" -- "0..1" CarrierProfile : has
+        User "1" -- "0..1" MerchantProfile : has
+        CarrierProfile "1" o-- "0..*" Vehicle : owns
+    }
+
+    package "Infrastructure" as iam_infrastructure {
+        class SignInResource <<resource>> {
+            - id: Number
+            - email: string
+            - role: string
+            - token: string
+            + constructor(id, email, role, token)
+        }
+
+        class SignUpResource <<resource>> {
+            - message: string
+            + constructor(message)
+        }
+
+        class UserAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): User
+            + {static} toEntitiesFromResponse(response): User[]
+        }
+
+        class CarrierProfileAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): CarrierProfile
+        }
+
+        class MerchantProfileAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): MerchantProfile
+        }
+
+        class VehicleAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): Vehicle
+            + {static} toEntitiesFromResponse(response): Vehicle[]
+        }
+
+        class SignInAssembler <<assembler>> {
+            + {static} toResourceFromResponse(response): SignInResource
+        }
+
+        class SignUpAssembler <<assembler>> {
+            + {static} toResourceFromResponse(response): SignUpResource
+        }
+
+        class IamApi {
+            - baseUrl: string
+            + constructor()
+            + signIn(signInRequest): Promise
+            + signUp(signUpRequest): Promise
+            + getCarrierProfile(userId): Promise
+            + getMerchantProfile(userId): Promise
+            + updateProfile(resource): Promise
+            + getVehicles(carrierProfileId): Promise
+            + createVehicle(resource): Promise
+            + validateIdentity(resource): Promise
+        }
+
+        class authenticationGuard <<guard>> {
+            + {static} authenticationGuard(to, from): object|boolean
+        }
+
+        class iamInterceptor <<interceptor>> {
+            + {static} iamInterceptor(config): AxiosRequestConfig
+        }
+    }
+
+    package "Application" as iam_application {
+        class IamStore <<store>> {
+            - currentUser: User|null
+            - carrierProfile: CarrierProfile|null
+            - merchantProfile: MerchantProfile|null
+            - vehicles: Vehicle[]
+            - errors: any[]
+            - isSignedIn: boolean
+            + currentToken: computed
+            + currentRole: computed
+            + signIn(signInCommand, router)
+            + signUp(signUpCommand, router)
+            + signOut()
+            + fetchProfile()
+            + updateProfile(profile)
+            + fetchVehicles()
+            + addVehicle(vehicle)
+            + validateIdentity(document)
+        }
+    }
+
+    package "Presentation" as iam_presentation {
+        package "Components" as iam_components {
+            class AuthenticationSection <<component>> {
+                - router: Router
+                - store: IamStore
+                - isSignedIn: computed
+                - currentRole: computed
+                + performSignOut()
+            }
+
+            class VehicleList <<component>> {
+                - t: function
+                - store: IamStore
+                - vehicles: Vehicle[]
+                + navigateToNew()
+            }
+
+            class IdentityValidationForm <<component>> {
+                - t: function
+                - store: IamStore
+                - document: File|null
+                + submitDocument()
+            }
+        }
+
+        package "Views" as iam_views {
+            class SignInForm <<component>> {
+                - router: Router
+                - store: IamStore
+                - form: object
+                + performSignIn()
+            }
+
+            class SignUpForm <<component>> {
+                - router: Router
+                - store: IamStore
+                - form: object
+                + performSignUp()
+            }
+
+            class ProfileView <<component>> {
+                - t: function
+                - store: IamStore
+                - profile: CarrierProfile|MerchantProfile
+                + saveProfile()
+            }
+
+            class VehicleForm <<component>> {
+                - t: function
+                - store: IamStore
+                - form: object
+                + saveVehicle()
+                + navigateBack()
+            }
+        }
+    }
+}
+
+' =====================================================================
+' MATCHMAKING & ROUTING BOUNDED CONTEXT (CORE DOMAIN)
+' =====================================================================
+package "Matchmaking & Routing Bounded Context" as matchmaking {
+
+    package "Domain" as mm_domain {
+        class Location <<value object>> {
+            - address: string
+            - latitude: Number
+            - longitude: Number
+            + constructor(address, latitude, longitude)
+        }
+
+        class ReturnRoute <<entity>> {
+            - id: Number|null
+            - carrierProfileId: Number
+            - vehicleId: Number
+            - origin: Location
+            - destination: Location
+            - availableCapacityKg: Number
+            - departureDate: Date
+            - status: string
+            + constructor(id, carrierProfileId, vehicleId, origin, destination, availableCapacityKg, departureDate, status)
+        }
+
+        class ShipmentRequest <<entity>> {
+            - id: Number|null
+            - merchantProfileId: Number
+            - description: string
+            - weightKg: Number
+            - origin: Location
+            - destination: Location
+            - status: string
+            + constructor(id, merchantProfileId, description, weightKg, origin, destination, status)
+        }
+
+        class MatchProposal <<entity>> {
+            - id: Number|null
+            - shipmentRequestId: Number
+            - returnRouteId: Number
+            - proposedRate: Number
+            - status: string
+            + constructor(id, shipmentRequestId, returnRouteId, proposedRate, status)
+        }
+
+        class Message <<entity>> {
+            - id: Number|null
+            - matchProposalId: Number
+            - senderUserId: Number
+            - content: string
+            - sentAt: Date
+            + constructor(id, matchProposalId, senderUserId, content, sentAt)
+        }
+
+        class PublishReturnRouteCommand <<command>> {
+            - vehicleId: Number
+            - origin: Location
+            - destination: Location
+            - availableCapacityKg: Number
+            - departureDate: Date
+        }
+
+        class CreateShipmentRequestCommand <<command>> {
+            - description: string
+            - weightKg: Number
+            - origin: Location
+            - destination: Location
+        }
+
+        class ProposeRateCommand <<command>> {
+            - matchProposalId: Number
+            - proposedRate: Number
+        }
+
+        ReturnRoute *-- Location : origin / destination
+        ShipmentRequest *-- Location : origin / destination
+        ReturnRoute "1" -- "0..*" MatchProposal : receives
+        ShipmentRequest "1" -- "0..*" MatchProposal : generates
+        MatchProposal "1" *-- "0..*" Message : contains
+    }
+
+    package "Infrastructure" as mm_infrastructure {
+        class ReturnRouteAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): ReturnRoute
+            + {static} toEntitiesFromResponse(response): ReturnRoute[]
+        }
+
+        class ShipmentRequestAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): ShipmentRequest
+            + {static} toEntitiesFromResponse(response): ShipmentRequest[]
+        }
+
+        class MatchProposalAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): MatchProposal
+            + {static} toEntitiesFromResponse(response): MatchProposal[]
+        }
+
+        class MessageAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): Message
+            + {static} toEntitiesFromResponse(response): Message[]
+        }
+
+        class MatchmakingApi {
+            - baseUrl: string
+            + constructor()
+            + createReturnRoute(resource): Promise
+            + searchReturnRoutes(origin, destination, date): Promise
+            + createShipmentRequest(resource): Promise
+            + cancelShipmentRequest(id): Promise
+            + getSuggestedLoads(returnRouteId): Promise
+            + acceptLoad(shipmentRequestId): Promise
+            + createProposal(resource): Promise
+            + respondToProposal(id, accepted): Promise
+            + getMessages(matchProposalId): Promise
+            + sendMessage(resource): Promise
+        }
+    }
+
+    package "Application" as mm_application {
+        class MatchmakingStore <<store>> {
+            - returnRoutes: ReturnRoute[]
+            - shipmentRequests: ShipmentRequest[]
+            - suggestedLoads: ShipmentRequest[]
+            - searchResults: ReturnRoute[]
+            - proposals: MatchProposal[]
+            - messages: Message[]
+            - errors: any[]
+            + publishReturnRoute(command)
+            + searchReturnRoutes(origin, destination, date)
+            + createShipmentRequest(command)
+            + cancelShipmentRequest(request)
+            + fetchSuggestedLoads(returnRouteId)
+            + acceptLoad(request)
+            + proposeRate(command)
+            + respondToProposal(proposal, accepted)
+            + fetchMessages(proposalId)
+            + sendMessage(message)
+        }
+    }
+
+    package "Presentation" as mm_presentation {
+        package "Components" as mm_components {
+            class SuggestedLoadList <<component>> {
+                - t: function
+                - store: MatchmakingStore
+                - suggestedLoads: ShipmentRequest[]
+                + acceptLoad(request)
+            }
+
+            class ProposalPanel <<component>> {
+                - t: function
+                - store: MatchmakingStore
+                - proposal: MatchProposal
+                + sendProposal()
+                + accept()
+                + reject()
+            }
+
+            class ChatPanel <<component>> {
+                - t: function
+                - store: MatchmakingStore
+                - messages: Message[]
+                + sendMessage()
+            }
+
+            class CarrierSearch <<component>> {
+                - t: function
+                - store: MatchmakingStore
+                - criteria: object
+                - results: ReturnRoute[]
+                + search()
+            }
+        }
+
+        package "Views" as mm_views {
+            class ReturnRouteForm <<component>> {
+                - t: function
+                - router: Router
+                - store: MatchmakingStore
+                - form: object
+                + saveReturnRoute()
+                + navigateBack()
+            }
+
+            class ShipmentRequestForm <<component>> {
+                - t: function
+                - router: Router
+                - store: MatchmakingStore
+                - form: object
+                + saveShipmentRequest()
+                + navigateBack()
+            }
+
+            class ShipmentRequestList <<component>> {
+                - t: function
+                - store: MatchmakingStore
+                - shipmentRequests: ShipmentRequest[]
+                + navigateToNew()
+                + confirmCancel(request)
+            }
+        }
+    }
+}
+
+' =====================================================================
+' SERVICE EXECUTION & MONITORING BOUNDED CONTEXT
+' =====================================================================
+package "Service Execution & Monitoring Bounded Context" as monitoring {
+
+    package "Domain" as mon_domain {
+        enum TripStatus {
+            AGREED
+            IN_TRANSIT
+            COMPLETED
+            CANCELLED
+        }
+
+        class Trip <<entity>> {
+            - id: Number|null
+            - matchProposalId: Number
+            - status: TripStatus
+            - pickedUpAt: Date|null
+            - deliveredAt: Date|null
+            + constructor(id, matchProposalId, status, pickedUpAt, deliveredAt)
+        }
+
+        class TrackingPoint <<value object>> {
+            - tripId: Number
+            - latitude: Number
+            - longitude: Number
+            - recordedAt: Date
+            + constructor(tripId, latitude, longitude, recordedAt)
+        }
+
+        class DeviationAlert <<entity>> {
+            - id: Number|null
+            - tripId: Number
+            - deviationKm: Number
+            - detectedAt: Date
+            + constructor(id, tripId, deviationKm, detectedAt)
+        }
+
+        class Incident <<entity>> {
+            - id: Number|null
+            - tripId: Number
+            - description: string
+            - status: string
+            - reportedAt: Date
+            + constructor(id, tripId, description, status, reportedAt)
+        }
+
+        class ConfirmPickupCommand <<command>> {
+            - tripId: Number
+        }
+
+        class ConfirmDeliveryCommand <<command>> {
+            - tripId: Number
+        }
+
+        class ReportIncidentCommand <<command>> {
+            - tripId: Number
+            - description: string
+        }
+
+        Trip --> TripStatus
+        Trip "1" *-- "0..*" TrackingPoint : tracks
+        Trip "1" *-- "0..*" DeviationAlert : triggers
+        Trip "1" *-- "0..*" Incident : reports
+    }
+
+    package "Infrastructure" as mon_infrastructure {
+        class TripAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): Trip
+            + {static} toEntitiesFromResponse(response): Trip[]
+        }
+
+        class TrackingPointAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): TrackingPoint
+        }
+
+        class DeviationAlertAssembler <<assembler>> {
+            + {static} toEntitiesFromResponse(response): DeviationAlert[]
+        }
+
+        class IncidentAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): Incident
+            + {static} toEntitiesFromResponse(response): Incident[]
+        }
+
+        class MonitoringApi {
+            - baseUrl: string
+            + constructor()
+            + getTrips(): Promise
+            + getTripById(id): Promise
+            + confirmPickup(tripId): Promise
+            + confirmDelivery(tripId): Promise
+            + getLastLocation(tripId): Promise
+            + sendLocation(resource): Promise
+            + getAlerts(tripId): Promise
+            + createIncident(resource): Promise
+        }
+
+        class GeolocationService <<service>> {
+            + getCurrentPosition(): Promise
+            + watchPosition(callback): Number
+            + clearWatch(watchId)
+        }
+    }
+
+    package "Application" as mon_application {
+        class MonitoringStore <<store>> {
+            - trips: Trip[]
+            - currentLocation: TrackingPoint|null
+            - alerts: DeviationAlert[]
+            - incidents: Incident[]
+            - errors: any[]
+            + completedTrips: computed
+            + fetchTrips()
+            + getTripById(id): Trip
+            + confirmPickup(command)
+            + confirmDelivery(command)
+            + startLocationSharing(tripId)
+            + stopLocationSharing()
+            + refreshLocation(tripId)
+            + fetchAlerts(tripId)
+            + reportIncident(command)
+        }
+    }
+
+    package "Presentation" as mon_presentation {
+        package "Components" as mon_components {
+            class LiveTripMap <<component>> {
+                - t: function
+                - store: MonitoringStore
+                - currentLocation: TrackingPoint
+                + refresh()
+            }
+
+            class PickupDeliveryPanel <<component>> {
+                - t: function
+                - store: MonitoringStore
+                - trip: Trip
+                + confirmPickup()
+                + confirmDelivery()
+            }
+
+            class DeviationAlertList <<component>> {
+                - t: function
+                - store: MonitoringStore
+                - alerts: DeviationAlert[]
+            }
+
+            class IncidentForm <<component>> {
+                - t: function
+                - store: MonitoringStore
+                - form: object
+                + submitIncident()
+            }
+
+            class MapViewer <<component>> {
+                - origin: Location
+                - destination: Location
+                - markerPosition: TrackingPoint|null
+            }
+        }
+
+        package "Views" as mon_views {
+            class TripDetail <<component>> {
+                - t: function
+                - route: Route
+                - store: MonitoringStore
+                - trip: Trip
+            }
+
+            class TripHistoryList <<component>> {
+                - t: function
+                - router: Router
+                - store: MonitoringStore
+                - trips: Trip[]
+                + navigateToDetail(id)
+            }
+        }
+    }
+}
+
+' =====================================================================
+' LOYALTY & REPUTATION BOUNDED CONTEXT
+' =====================================================================
+package "Loyalty & Reputation Bounded Context" as reputation {
+
+    package "Domain" as rep_domain {
+        class Rating <<entity>> {
+            - id: Number|null
+            - tripId: Number
+            - raterUserId: Number
+            - ratedUserId: Number
+            - score: Number
+            - comment: string
+            - createdAt: Date
+            + constructor(id, tripId, raterUserId, ratedUserId, score, comment, createdAt)
+        }
+
+        class ReputationSummary <<value object>> {
+            - userId: Number
+            - averageScore: Number
+            - ratingsCount: Number
+            + constructor(userId, averageScore, ratingsCount)
+        }
+
+        class SubmitRatingCommand <<command>> {
+            - tripId: Number
+            - ratedUserId: Number
+            - score: Number
+            - comment: string
+        }
+    }
+
+    package "Infrastructure" as rep_infrastructure {
+        class RatingAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): Rating
+            + {static} toEntitiesFromResponse(response): Rating[]
+        }
+
+        class ReputationSummaryAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): ReputationSummary
+        }
+
+        class ReputationApi {
+            - baseUrl: string
+            + constructor()
+            + createRating(resource): Promise
+            + getRatingsByUser(userId): Promise
+            + getReputationSummary(userId): Promise
+        }
+    }
+
+    package "Application" as rep_application {
+        class ReputationStore <<store>> {
+            - ratings: Rating[]
+            - summaries: ReputationSummary[]
+            - errors: any[]
+            + submitRating(command)
+            + fetchRatings(userId)
+            + fetchSummary(userId)
+        }
+    }
+
+    package "Presentation" as rep_presentation {
+        package "Components" as rep_components {
+            class RatingForm <<component>> {
+                - t: function
+                - store: ReputationStore
+                - form: object
+                + submitRating()
+            }
+
+            class ReputationBadge <<component>> {
+                - t: function
+                - store: ReputationStore
+                - summary: ReputationSummary
+            }
+        }
+    }
+}
+
+' =====================================================================
+' PAYMENT & BILLING BOUNDED CONTEXT
+' =====================================================================
+package "Payment & Billing Bounded Context" as payment {
+
+    package "Domain" as pay_domain {
+        enum PaymentStatus {
+            PENDING
+            PROCESSING
+            PAID
+            FAILED
+            REFUNDED
+        }
+
+        enum PaymentMethod {
+            CARD
+            DIGITAL_WALLET
+        }
+
+        class PaymentTransaction <<entity>> {
+            - id: Number|null
+            - tripId: Number
+            - payerUserId: Number
+            - payeeUserId: Number
+            - amount: Number
+            - currency: string
+            - paymentMethod: PaymentMethod
+            - status: PaymentStatus
+            - externalTransactionId: string|null
+            - createdAt: Date
+            - paidAt: Date|null
+            + constructor(id, tripId, payerUserId, payeeUserId, amount, currency, paymentMethod, status)
+            + markAsProcessing()
+            + markAsPaid(externalTransactionId)
+            + markAsFailed()
+        }
+
+        class Receipt <<entity>> {
+            - id: Number|null
+            - paymentTransactionId: Number
+            - receiptNumber: string
+            - issuedAt: Date
+            - status: string
+            - externalReceiptId: string|null
+            + constructor(id, paymentTransactionId, receiptNumber, issuedAt, status)
+        }
+
+        class CreatePaymentCommand <<command>> {
+            - tripId: Number
+            - paymentMethod: PaymentMethod
+            - paymentToken: string
+        }
+
+        PaymentTransaction --> PaymentStatus
+        PaymentTransaction --> PaymentMethod
+        PaymentTransaction "1" *-- "0..1" Receipt : generates
+    }
+
+    package "Infrastructure" as pay_infrastructure {
+        class PaymentTransactionAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): PaymentTransaction
+            + {static} toEntitiesFromResponse(response): PaymentTransaction[]
+        }
+
+        class ReceiptAssembler <<assembler>> {
+            + {static} toEntityFromResource(resource): Receipt
+            + {static} toEntitiesFromResponse(response): Receipt[]
+        }
+
+        class PaymentApi {
+            - baseUrl: string
+            + constructor()
+            + createPayment(resource): Promise
+            + getPayment(id): Promise
+            + getPayments(): Promise
+            + getPaymentStatus(id): Promise
+            + getReceipt(paymentId): Promise
+        }
+    }
+
+    package "Application" as pay_application {
+        class PaymentStore <<store>> {
+            - payments: PaymentTransaction[]
+            - currentPayment: PaymentTransaction|null
+            - receipts: Receipt[]
+            - errors: any[]
+            + createPayment(command)
+            + fetchPayment(id)
+            + fetchPayments()
+            + fetchReceipt(paymentId)
+            + refreshPaymentStatus(id)
+        }
+    }
+
+    package "Presentation" as pay_presentation {
+        package "Components" as pay_components {
+            class PaymentForm <<component>> {
+                - t: function
+                - store: PaymentStore
+                - form: object
+                + submitPayment()
+            }
+
+            class PaymentStatusPanel <<component>> {
+                - t: function
+                - store: PaymentStore
+                - payment: PaymentTransaction
+                + refreshStatus()
+            }
+
+            class ReceiptCard <<component>> {
+                - t: function
+                - receipt: Receipt
+                + viewReceipt()
+            }
+        }
+
+        package "Views" as pay_views {
+            class PaymentHistory <<component>> {
+                - t: function
+                - store: PaymentStore
+                - payments: PaymentTransaction[]
+                + loadPayments()
+                + navigateToPayment(id)
+            }
+
+            class PaymentDetail <<component>> {
+                - t: function
+                - store: PaymentStore
+                - payment: PaymentTransaction
+                - receipt: Receipt|null
+                + loadPayment(id)
+            }
+        }
+    }
+}
+
+' =====================================================================
+' RELATIONSHIPS (declared after all classes to keep them in their packages)
+' =====================================================================
+
+' ---- IAM & Profiles ----
+authenticationGuard --> IamStore
+iamInterceptor --> IamStore
+IamStore --> IamApi
+IamStore --> SignInAssembler
+IamStore --> SignUpAssembler
+IamStore --> UserAssembler
+IamStore --> CarrierProfileAssembler
+IamStore --> MerchantProfileAssembler
+IamStore --> VehicleAssembler
+AuthenticationSection --> IamStore
+VehicleList --> IamStore
+IdentityValidationForm --> IamStore
+SignInForm --> IamStore
+SignInForm --> SignInCommand
+SignUpForm --> IamStore
+SignUpForm --> SignUpCommand
+ProfileView --> IamStore
+VehicleForm --> IamStore
+
+' ---- Matchmaking & Routing ----
+MatchmakingStore --> MatchmakingApi
+MatchmakingStore --> ReturnRouteAssembler
+MatchmakingStore --> ShipmentRequestAssembler
+MatchmakingStore --> MatchProposalAssembler
+MatchmakingStore --> MessageAssembler
+MatchmakingStore ..> IamStore : current user / vehicles
+SuggestedLoadList --> MatchmakingStore
+ProposalPanel --> MatchmakingStore
+ProposalPanel --> ProposeRateCommand
+ChatPanel --> MatchmakingStore
+CarrierSearch --> MatchmakingStore
+ReturnRouteForm --> MatchmakingStore
+ReturnRouteForm --> PublishReturnRouteCommand
+ShipmentRequestForm --> MatchmakingStore
+ShipmentRequestForm --> CreateShipmentRequestCommand
+ShipmentRequestList --> MatchmakingStore
+
+' ---- Service Execution & Monitoring ----
+MonitoringStore --> MonitoringApi
+MonitoringStore --> TripAssembler
+MonitoringStore --> TrackingPointAssembler
+MonitoringStore --> DeviationAlertAssembler
+MonitoringStore --> IncidentAssembler
+MonitoringStore --> GeolocationService
+LiveTripMap --> MonitoringStore
+LiveTripMap --> MapViewer
+PickupDeliveryPanel --> MonitoringStore
+PickupDeliveryPanel --> ConfirmPickupCommand
+PickupDeliveryPanel --> ConfirmDeliveryCommand
+DeviationAlertList --> MonitoringStore
+IncidentForm --> MonitoringStore
+IncidentForm --> ReportIncidentCommand
+TripDetail --> MonitoringStore
+TripDetail --> LiveTripMap
+TripDetail --> PickupDeliveryPanel
+TripDetail --> DeviationAlertList
+TripDetail --> IncidentForm
+TripHistoryList --> MonitoringStore
+
+' ---- Loyalty & Reputation ----
+ReputationStore --> ReputationApi
+ReputationStore --> RatingAssembler
+ReputationStore --> ReputationSummaryAssembler
+RatingForm --> ReputationStore
+RatingForm --> SubmitRatingCommand
+ReputationBadge --> ReputationStore
+
+' ---- Payment & Billing ----
+PaymentStore --> PaymentApi
+PaymentStore --> PaymentTransactionAssembler
+PaymentStore --> ReceiptAssembler
+PaymentForm --> PaymentStore
+PaymentForm --> CreatePaymentCommand
+PaymentStatusPanel --> PaymentStore
+PaymentHistory --> PaymentStore
+PaymentDetail --> PaymentStore
+PaymentDetail --> ReceiptCard
+
+' ---- Cross-context (by identifier, not by object) ----
+Trip ..> MatchProposal : matchProposalId
+Rating ..> Trip : tripId
+ReturnRoute ..> CarrierProfile : carrierProfileId
+ShipmentRequest ..> MerchantProfile : merchantProfileId
+ReturnRoute ..> Vehicle : vehicleId
+PaymentTransaction ..> Trip : tripId
+PaymentTransaction ..> User : payerUserId
+PaymentTransaction ..> User : payeeUserId
+
+@enduml
